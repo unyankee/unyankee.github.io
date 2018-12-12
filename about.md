@@ -53,5 +53,5 @@ I am really excited for both of them, and can not wait to see how the end up loo
 
 As you could notice, I am really excited about working in the industry, with more people.
 
->>  We can go further if we work together.
+  >  We can go further if we work together.
 

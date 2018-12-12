@@ -42,13 +42,13 @@ I can communicate myself in:
 ## References
 
 * Gustavo Aranda
-* * Programme Leader at ESAT
-* * <garanda@esat.es>
+  * Programme Leader at ESAT
+  * <garanda@esat.es>
 
 
 * Juan Diego Alegre
-* * Project Manager at ESAT
-* * <jd@esat.es>
+  * Project Manager at ESAT
+  * <jd@esat.es>
 
 
 ## Aptitudes
