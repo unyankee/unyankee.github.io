@@ -47,11 +47,14 @@ enemies at a stroke.
 * A bizarre story, full of hilarious and surreal situations.
 A fast-paced gameplay that gives no respite and pushes the player to know the end
 of the story.
-* A fantastic setting inspired by ancient mythologies and the culture of beer and party.
+* A fantastic setting inspired by ancient mythologies and the culture of beer and party.  
+
+
+
 In this game, the God Duffer, his protagonist, together with his beloved Ambar, must face
-terrible creatures to recover the beer that has disappeared from his world.
+terrible creatures to recover the beer that has disappeared from his world.  
 Existing the possibility of playing doubles, being both complementary characters,
-having the same abilities, but varying in the speed and power of the execution.
+having the same abilities, but varying in the speed and power of the execution.  
 The player will have to face different traps, such as destructible covers, catapults triggered
 by enemies, rolling trunks invoked, and a long etc...  
 * The progression of the game is carried out through the advance and close combat,
