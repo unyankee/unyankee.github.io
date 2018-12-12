@@ -10,18 +10,18 @@ date: 2018-07-10
 ## New Begining
 
 This is my new big project, developing my own framework to be able to work, or test any new feature or simply test 
-whatever I'd like ot test.
+whatever I'd like to test.
 
 
-This new framework is currently capable of several things, and it is getting bigger, because I really want to test everything I could.
+This new framework is currently capable of several things, and it is getting bigger because I really want to test everything I could.
 
 But keeping in mind one simple thing, it must be simple to use,not just for me, but everyone who wanted to use it.
 At the same time needs to be flexible, because is a framework, but I really would like to keep it updated, so I could keep using it
 in the future, to keep testing everything that needs to be tested.
 
-So, two modes of working are avaliable, the most simple one, for just test how it works, for example, creating a simple GameObject to be rendered.
+So, two modes of working are available, the most simple one, for just test how it works, for example, creating a simple GameObject to be rendered.
 
-For that task we need several components, to let the system know everything is okey, and can be used.
+For that task we need several components, to let the system know everything is okay and can be used.
 {% highlight ruby linenos %}
 //Main class, it could be a 'Node'.
 GameObject* testingCube = GameObjectSystem::get().createGameObject();
@@ -51,12 +51,13 @@ testingCube->getComponent<Material>()->shader_->setNewFragmentShader(readFile(".
 {% endhighlight %}	
 
 * The framework creates components, using the addComponent<>() function
-* Any component can be accesed by calling the getComponent<>() function
+* Any component can be accessed  by calling the getComponent<>() function
 * And lastly, any component can be cloned using the setComponent<>() function
 
 
-But if more flexible is needed, the buffer can be completely customized using a HighBuffer instance, to generate a custom mesh.
-Thats it, for example:
+But if more flexibility is needed, the buffer can be completely customized using a HighBuffer instance, to generate a custom mesh.
+That's it, for example:
+
 
 {% highlight ruby linenos %}
 // A custom buffer to keep tracking of the mesh information
@@ -121,8 +122,10 @@ An offline raytracing renderer, heavily multithreading, that can display the ima
 measure the time that it takes, to be able to have some measures to be able to optimize.
 
 
-Right now is being used for my final year project, so I am experimenting with realtime raytracing.
-But until now, I got this, shared resources between CPU-GPU, to be able to render at real time a completely raytraced scene, using compute shaders again.
+
+Right now is being used for my final year project, so I am experimenting with real-time raytracing.
+But until now, I got this, shared resources between CPU-GPU, to be able real-time rendering a completely raytraced scene, using compute shaders again.
 The next step it would be to complete the second tutorial of Peter Shirley, but completely on the GPU.
+
 
 ![My helpful screenshot](/assets/OutterSpace/Screenshot_3.png)

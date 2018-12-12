@@ -8,7 +8,7 @@ date: 2017-06-10
 
 ## Procedural City
 
-In fact there is not much to say about this project, was the first time I had to deal with OpenGL, so it was a interesting activity.
+In fact, there is not much to say about this project, was the first time I had to deal with OpenGL, so it was an interesting activity.
 We had to reimplement several parts of a framework based on OpenGL before working on the real thing, so I guessed the idea was to 
 take practice using this API, before anything.
 

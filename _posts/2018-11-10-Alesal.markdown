@@ -8,8 +8,7 @@ date: 2018-06-15
 
 ![MainScreenShot](/assets/Alesal/Screenshot_1.png)
 
-Alesal Engine is a multi threading game engine written in C++ and OpenGL. It has been developed by two students of Video Games programing at ESAT, to test what we can achieve for a subject, and it can be used to assemble scenes using LUA language :)
-
+Alesal Engine is a multithreading game engine written in C++ and OpenGL. It has been developed by two students of Video Games programming at ESAT, to test what we can achieve for a subject, and it can be used to assemble scenes using LUA language :)
 
 	
 * [Render](#render)
@@ -28,47 +27,48 @@ Alesal Engine is a multi threading game engine written in C++ and OpenGL. It has
 * [Scripting](#scripting)
 
 ## Render
-To render, the engine has some differents capabilities, the most important one is that everything, is being rendered using deferred pipeline. That means that we have several textures we can get by rendering the scene several times to get the information we need to draw the scene as is currently seen.
-The way we render every object is using what we called renderBuckets, a collection of draw commands on a specific order, we have several of them, for example one for opaques, another for occlusion textures, another for directional shadows… and a lot of more…
+To render, the engine has some different capabilities, the most important one is that everything, is being rendered using the deferred pipeline. That means that we have several textures we can get by rendering the scene several times to get the information we need to draw the scene as is currently seen.
+The way we render every object is using what we called render buckets, a collection of draw commands on a specific order, we have several of them, for example, one for opaques, another for occlusion textures, another for directional shadows… and a lot more…
 
 ![RenderScreenshoot](/assets/Alesal/Screenshot_2.png)
 
 
 ## Shadows
 We have two different methods to render shadows, the first one is the directional light shadow pass, and the second the point lights one.
-The directional light just create a simple depth texture from the point of view of the own light.
+The directional light just creates a simple depth texture from the point of view of the own light.
 We take profit of the renderBuckets commented before, to render just the object we want to generate shadows, calling specific functions for each case.
-The main difference between the point light and directional shadow map, is that the directional uses a simple texture2D, and the point light uses a cubemap.
-As we do not want to  re render the whole scene 6 times for the point lights, we use a little trick, taking profit of the geometry shader, manipulating between the vertex and the shader the current position of the object.
+The main difference between the point light and directional shadow map is that the directional uses a simple texture2D, and the point light uses a cubemap.
+As we do not want to re-render the whole scene 6 times for the point lights, we use a little trick, taking profit of the geometry shader, manipulating between the vertex and the shader the current position of the object.
 Using six different matrices that allow us to populate the cubemap form a single pass.
 
 Then all this information is used on the light pass, to alter whether the pixel we are rendering is shadowed by something or not.
-Just comparing the depth of the current pixel, with the transpolated depth of the light.
-The brief version would be that if the pixel depth is lower than the generated on the shadow map, this pixel is affected by the light, but if is higher is occluded.
+Just comparing the depth of the current pixel, with the translated depth of the light.
+The brief version would be that if the pixel depth is lower than the generated on the shadow map, this pixel is affected by the light, but it is higher is occluded.
 
 ![ShadowScreenShot](/assets/Alesal/Screenshot_3.png)
 
 
 ## Occlusion Culling
-To be able to create a occlusion culling method, we have take profit of the open gl queries, so when we are going to render something, we ask if we were visible on the last frame.
+To be able to create an occlusion culling method, we have take profit of the open gl queries, so when we are going to render something, we ask if we were visible on the last frame.
 if we were visible, at least 1 pixel, we can be rendered, but if not, we are not going to be rendered.
 
 
 ## Pipeline
-The pipeline of our engine consist on several passes, where we just store the information we are going to use on a separated light pass.
+The pipeline of our engine consists on several passes, where we just store the information we are going to use on a separated light pass.
 The first pass we perform is to generate the depth map the directional light is going to use.
 Then we iterate over each generated point light to generate a depth cubemap.
-With that we have the information for shadows.
+With that, we have the information for shadows.
+
 
 Then we retrieve the information of our different render buckets, iterating over this, we get a lot of information we need:
 
 * Position of every object in the scene,
 * Normals of each object
-* The Uvs of the texture is going to use (trickied pbr ) 
+* The Uvs of the texture is going to use (tricked  pbr ) 
 * Normal tangent (same last, a trick to PBR)
 
 If the object needs or not to be bloomed:
-* The load of specular the drawable has.
+* A load of specular the drawable has.
 
 How much specular is:
 * The ambient occlusion if has some built in.
@@ -90,25 +90,25 @@ The resumed pipeline is:
 * And render all currently activated postprocesses.
 
 ## Materials
-We have support for some different built-in materials, PBR, using differents textures to get the information, or just an albedo texture and several floats to tweak the look we want.
+We have support for some different built-in materials, PBR, using different textures to get the information, or just an albedo texture and several floats to tweak the look we want.
 
-We have now a default basic material, that make use of a single albedo texture, because we do not want to have a simple color :)
-This material has almost all the basic info, and a way of generate new textures and some ways to tweak minor values.
+We have now a default basic material, that make use of a single albedo texture because we do not want to have a simple color :)
+This material has almost all the basic info, and a way to generate new textures and some ways to tweak minor values.
 
 We have a PBR support material, using 5 textures.
 Albedo: Where the base color of the surface is specified.
-Normal: A fake illusion show a bumpier surface than what really is.
-Metallic:To know with a per texel precision if the given one is metallic or not.
+Normal: A fake illusion shows a bumpier surface than what really is.
+Metallic: To know with a per texel precision if the given one is metallic or not.
 Roughness: related to the microfacets, how rough a surface is per texel.
-AO: To simulate some shadows, a tricky texture that allow the artists to generate whether the light is more likely to escape from the theoretical material.
+AO: To simulate some shadows, a tricky texture that allows the artists to generate whether the light is more likely to escape from the theoretical material.
 
-We have the same material, but using values to represent the whole value of roughness and metallness, to be able to tweak some different materials, without the need of a new texture per each one.
-
-
+We have the same material, but using values to represent the whole value of roughness and metalness, to be able to tweak some different materials, without the need for a new texture per each one.
 
 ## Postprocess
-The key here is how we have implemented the support for different post processes, because we just make use of simple effects, we have a queue of them.
-Each effect is decided to be on a specific order, for example, the vignette effect is the last one, because we do not want to fake the effect.
+
+The key here is how we have implemented the support for different post processes because we just make use of simple effects, we have a queue of them.
+Each effect is decided to be on a specific order, for example, the vignette effect is the last one because we do not want to fake the effect.
+
 
 We have a very simple UI to activate or deactivate each effect, Is Just a checkbox !!!!
 
@@ -116,7 +116,7 @@ We have a very simple UI to activate or deactivate each effect, Is Just a checkb
 
 ## Bloom
 We allow the user to choose which object should have the ability to generate bloom.
-First of all we think that the bloom effect is just a simple 2 step effect, where we extract the data of every single object that needs to be “bloomed”, and store it on a special bucket.
+First of all, we think that the bloom effect is just a simple 2 step effect, where we extract the data of every single object that needs to be “bloomed”, and store it on a special bucket.
 Then with that information, we iterate over this texture data blurring it horizontal X times, and Vertical X times, and store the result on another different texture. After all this we merge the current image with the actual blurred one, achieving this effect…
 
 
@@ -138,8 +138,8 @@ Or any real color we wanted to use :)
 ![RenderScreenshoot](/assets/Alesal/Screenshot_9.png)
 
 ## Lightshaft
-This was the first we had trouble, because is simple, but we were still learning how to perform different passes.
-It is quite interesting and easy tim implement, the only thing that can be difficult if you are not familiar is translating the global position of the object is affected by this effect, to UVs, or Screen coords. The operation is quite simple, we just need to multiply our global position by the projection and by the view matrix. After all this operation we need to move this value between the [0,1] range, so ii is as easy as add 1 and multiply it by 0.5, and that’s it !!! We have the UV where our object is.
+This was the first we had trouble because is simple, but we were still learning how to perform different passes.
+It is quite interesting and easy to implement, the only thing that can be difficult if you are not familiar is translating the global position of the object is affected by this effect, to UVs, or Screen coords. The operation is quite simple, we just need to multiply our global position by the projection and by the view matrix. After all this operation we need to move this value between the [0,1] range, so it is as easy as add 1 and multiplies it by 0.5, and that’s it !!! We have the UV where our object is.
 
 The next step is to get a image where the object we want to have this effect is, but with the peculiar thing that this object is the only one that can be colored, all the rest objects must be in complete dark.
 
@@ -149,12 +149,12 @@ To achieve this we just use a new Color attachment, and use a value to multiply 
 The trick is to calculate the illumination power that comes from the source of light, travels near the object that overshadows it and finally reaches the pixel which color is currently calculating. Let’s say that it is very cheated light casting reduced to 2D.
 
 ## SSAO
-Is the most trickiest effect we have done, and the most heaviest effect we have.
+Is the trickiest effect we have done, and the heaviest effect we have.
 
-Basically we take profit of the deferred and reuse our GBuffer, with position, normals and the albedo texture we recreate the Ambient occlusion effect, but just per pixel.
+Basically, we take profit of the deferred and reuse our GBuffer, with position, normals and the albedo texture we recreate the Ambient occlusion effect, but just per pixel.
 
-The key is to calculate a occlusion factor based on how many object are surrounding the one we are currently checking.
-The value we obtain from this operation is the one that can modify the ambient factor we use later on the lightpass.
+The key is to calculate an occlusion factor based on how many objects are surrounding the one we are currently checking.
+The value we obtain from this operation is the one that can modify the ambient factor we use later on the light pass.
 The occlusion factor is obtained by taking multiple depth samples in a sphere sample kernel surrounding the fragment position and compare each of the samples with the current fragment's depth value.
 
 ![RenderScreenshoot](/assets/Alesal/Screenshot_11.png)
@@ -173,8 +173,8 @@ The system is helped by the Scene class, it consists of two basic functions, ini
 
 
 
-Was my first approach using raw OpenGl, with a partner, so we were testing with all the features we could. 
-Most of what we learnt was thanks to: 
+Was my first approach using raw OpenGL, with a partner, so we were testing with all the features we could. 
+Most of what we learned was thanks to: 
 * [LearnOpenGl](https://learnopengl.com/)
 * [OpenGLTutorials](http://www.opengl-tutorial.org/)
 * Several sources will be added on time

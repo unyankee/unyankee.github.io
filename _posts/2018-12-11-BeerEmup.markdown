@@ -19,9 +19,10 @@ date: 2018-06-11
 
 BeerEmUp is my final year project at [ESAT Valencia]((https://www.esat.es/)), where I completed my HND.
 
-Well it was not just me, we were a group of programmers, that with the help of our excellent artists from the same centre,
-and a bunch of awesome musicians from [Berklee Valencia](https://valencia.berklee.edu/),  could develope our first project.
-And the most exciting part, about finishing it, was that we had the opportinuty to publish our game on Steam.
+Well, it was not just me, we were a group of programmers, that with the help of our excellent artists from the same institute,
+and a bunch of awesome musicians from [Berklee Valencia](https://valencia.berklee.edu/),  could develop our first project.
+And the most exciting part, about finishing it, was that we had the opportunity to publish our game on Steam.
+
 
 [BeerEmUp](https://store.steampowered.com/app/945880/Beerem_Up/) is on Steam, a free to play game, so anyone could give it a chance.
 

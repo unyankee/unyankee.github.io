@@ -8,15 +8,16 @@ permalink: /Resume/
 
 ## Who Am I?
 
-I am a passionated young programmer with experience using Game Engines,such as Unity or Unreal Engine 4. Also experienced on 3D real-time rendering 
-techniques. And a graphics programming lover.
+
+I am a passionate young programmer with experience using Game Engines, such as Unity or Unreal Engine 4. Also experienced in 3D real-time rendering techniques. And a graphics programming lover.
+
 
 
 Always aiming to improve, and learning from the situation, and improving my skills day by day.
 
 
-A fun loving programmer, that enjoys what it does, but if is on a team , always better. Because to go further, we need to go together.
-And working on a team, with diffent point of views, is the best way to learn from others.
+A fun-loving programmer, that enjoys what it does, but it is on a team, always better. Because to go further, we need to go together.
+And working on a team, with a different point of views, is the best way to learn from others.
 
 
 ## Education
