@@ -21,15 +21,15 @@ And working on a team, with a different point of views, is the best way to learn
 
 
 ## Education
-Sheffield Hallam University
-Sheffield, UK.
-BSc(honours) Computer Science for Games
-Graduated: Expected 2019
+Sheffield Hallam University  
+Sheffield, UK.  
+BSc(honours) Computer Science for Games  
+Graduated: Expected 2019  
 
-ESAT (Escuela Superior de Arte y Tecnología)
-Valencia, Spain
-BTEc Level 5 HND in Computing And Systems Develpment
-Graduated: 2018 with **Distinction**
+ESAT (Escuela Superior de Arte y Tecnología)  
+Valencia, Spain  
+BTEc Level 5 HND in Computing And Systems Develpment  
+Graduated: 2018 with **Distinction**  
 
 
 ## Languages
@@ -108,7 +108,7 @@ Currently hosted on Github pages:
 ## Awards:
 
 Proud programmer of BeerEmUp, a free to play BeatEmUp game: Awarded by Student Game Contest.
-Spanish Students Videogames association.
+Spanish Students Videogames association.  
 [AEV](http://studentgamecontest.aev.org.es/)
 
 Best Artistic Direction - Student Game Contest 2018
