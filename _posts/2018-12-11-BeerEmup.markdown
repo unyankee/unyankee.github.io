@@ -17,7 +17,7 @@ date: 2018-06-11
 
 ## Context
 
-BeerEmUp is my final year project at [ESAT Valencia]((https://www.esat.es/)), where I completed my HND.
+BeerEmUp is my final year project at [ESAT Valencia](https://www.esat.es/), where I completed my HND.
 
 Well, it was not just me, we were a group of programmers, that with the help of our excellent artists from the same institute,
 and a bunch of awesome musicians from [Berklee Valencia](https://valencia.berklee.edu/),  could develop our first project.

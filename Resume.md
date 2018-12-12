@@ -21,12 +21,12 @@ And working on a team, with a different point of views, is the best way to learn
 
 
 ## Education
-Sheffield Hallam University  
+[Sheffield Hallam University](https://www.shu.ac.uk/)    
 Sheffield, UK.  
 BSc(honours) Computer Science for Games  
 Graduated: Expected 2019  
 
-ESAT (Escuela Superior de Arte y Tecnología)  
+[ESAT](http://www.esat.es/) (Escuela Superior de Arte y Tecnología)  
 Valencia, Spain  
 BTEc Level 5 HND in Computing And Systems Develpment  
 Graduated: 2018 with **Distinction**  
