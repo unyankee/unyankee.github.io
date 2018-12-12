@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Low level Lens"
+date:   2018-12-11 18:13:49 +0000
+date: 2018-06-10 
+---
+## Low level optimization
+
+![My helpful screenshot](/assets/lens/screenshot.png)
+
+Small project, consisting of many lenses, deforming the displayed image.
+A project to optimaze the most of different algorithms, precalculating every possible data, and operating using fixed integer data types, 
+and different buffer copies methods to deal with images of variable dimensions
+
+Tested on a Raspberry Pi 3 model b.
+

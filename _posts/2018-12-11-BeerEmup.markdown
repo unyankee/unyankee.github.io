@@ -1,0 +1,105 @@
+---
+layout: post
+title:  "BeerEmUp"
+date:   2018-12-11
+categories: 
+date: 2018-06-11 
+---
+## Game trailer
+* [Context](#context)
+* [Game Description](#game-description)
+* [Gallery](#gallery)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Px1C7v5Kizg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+## Context
+
+BeerEmUp is my final year project at [ESAT Valencia]((https://www.esat.es/)), where I completed my HND.
+
+Well it was not just me, we were a group of programmers, that with the help of our excellent artists from the same centre,
+and a bunch of awesome musicians from [Berklee Valencia](https://valencia.berklee.edu/),  could develope our first project.
+And the most exciting part, about finishing it, was that we had the opportinuty to publish our game on Steam.
+
+[BeerEmUp](https://store.steampowered.com/app/945880/Beerem_Up/) is on Steam, a free to play game, so anyone could give it a chance.
+
+
+![My helpful screenshot](/assets/BeerEmUp/Screenshot_1.png)
+
+
+## Game Description
+BeerEmUp is a game belonging to the BeatEmUp genre, with melee combat mechanics
+and special abilities through which our protagonists will be able to sweep at pleasure a large
+number of enemies that will come out to meet them, as well as face the most varied
+situations, from dodging the rubble of buildings that collapse in its path, to escaping giant
+rolling grapes in the purest Indiana Jones style.
+Between the most outstanding characteristics of which you will have, they are:
+* Two characters to choose from, as funny as they are different from each other, a
+strong and forceful God in the battle with mace, or a Goddess Intrepid and agile in
+the use of the sword.
+* A wide range of combos to be able to eliminate enemies in the way that best suits the
+player.
+* A series of special abilities to be more powerful and defeat a greater number of
+enemies at a stroke.
+* A bizarre story, full of hilarious and surreal situations.
+A fast-paced gameplay that gives no respite and pushes the player to know the end
+of the story.
+* A fantastic setting inspired by ancient mythologies and the culture of beer and party.
+In this game, the God Duffer, his protagonist, together with his beloved Ambar, must face
+terrible creatures to recover the beer that has disappeared from his world.
+Existing the possibility of playing doubles, being both complementary characters,
+having the same abilities, but varying in the speed and power of the execution.
+The player will have to face different traps, such as destructible covers, catapults triggered
+by enemies, rolling trunks invoked, and a long etc ...
+The progression of the game is carried out through the advance and close combat,
+including, progressively, three special abilities, which expand the range of attacks,
+increasing the strategic component and being:
+
+* Berserker Mode: An overload of power that will help us to finish before with anyone
+who dares interpose between our barrel and the player.
+* Attack of area: A powerful blow against the ground, capable of knocking down all
+those who have the idea of ​​approaching the player.
+* Sweeping Attack: A long-range hit, which can make enemies have to think more
+about what to do in their life.
+
+
+## My Contributions
+
+My contributions are mainly related to gameplay.
+
+* Main character movement 
+* Enemies behaviour and movement
+* Main Menu Design & Implementation
+* Implementation of local multiplayer
+
+
+## Gallery
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown.png)
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown5.png)
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown6.png)
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown8.png)
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown11.png)
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown18.png)
+
+
+![My helpful screenshot](/assets/BeerEmUp/unknown21.png)
+
+
+
+
+
+
