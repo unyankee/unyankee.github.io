@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Curiculum
-permalink: /Curiculum/
+title: Resume
+permalink: /Resume/
 ---
 
 # [My Personal Blog](http://unyankee.github.io/)
