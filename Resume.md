@@ -83,9 +83,13 @@ I can communicate myself in:
 
 * Constant Researching
 * TeamWorking
-* Agile Software Develpment
+* Agile Software Development
 
 
+# Different working environments
+
+* Windows 
+* Linux
 
 ## Personal Projects
 
