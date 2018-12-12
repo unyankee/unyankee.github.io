@@ -62,13 +62,14 @@
     border: 1px solid #E87400;
     border-radius: 5px;
     text-align: right;
+	z-index: 10;
 
     label[for="nav-trigger"] {
       display: block;
       float: right;
       width: 36px;
       height: 36px;
-      z-index: 2;
+      
       cursor: pointer;
     }
 
