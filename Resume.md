@@ -30,6 +30,26 @@ Valencia, Spain
 BTEc Level 5 HND in Computing And Systems Develpment
 Graduated: 2018 with **Distinction**
 
+
+## Languages
+
+I can communicate myself in:
+
+* English: C1 Level / 7 Band
+* Spanish: Native Level
+
+## References
+
+* Gustavo Aranda
+* * Programme Leader at ESAT
+* * <garanda@esat.es>
+
+
+* Juan Diego Alegre
+* * Project Manager at ESAT
+* * <jd@esat.es>
+
+
 ## Aptitudes
 
 # Different Programming Languages

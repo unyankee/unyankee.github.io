@@ -14,6 +14,7 @@ Currently studying abroad, at Sheffield Hallam University, where I expect to get
 I am looking for working on the industry, I really would like to, and meet new people 
 with the same feelings about games than me. It would be completely awesome to work on a passione team.
 
+
 ## What have I done?
 
 Well, I started recently, so I have not done too much, but what I have done, I am proud of it.
