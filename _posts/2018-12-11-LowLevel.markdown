@@ -8,7 +8,7 @@ date: 2018-06-10
 
 ![My helpful screenshot](/assets/lens/screenshot.png)
 
-Small project, consisting of many lenses, deforming the displayed image.
+Small project, consisting of many lenses, deforming the displayed image.  
 A project to optimize the most of different algorithms, precalculating every possible data, and operating using fixed integer data types, 
 and different buffer copies methods to deal with images of variable dimensions
 

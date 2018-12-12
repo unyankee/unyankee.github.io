@@ -53,8 +53,8 @@ terrible creatures to recover the beer that has disappeared from his world.
 Existing the possibility of playing doubles, being both complementary characters,
 having the same abilities, but varying in the speed and power of the execution.
 The player will have to face different traps, such as destructible covers, catapults triggered
-by enemies, rolling trunks invoked, and a long etc ...
-The progression of the game is carried out through the advance and close combat,
+by enemies, rolling trunks invoked, and a long etc...  
+* The progression of the game is carried out through the advance and close combat,
 including, progressively, three special abilities, which expand the range of attacks,
 increasing the strategic component and being:
 
