@@ -14,7 +14,7 @@ take practice using this API, before anything.
 
 
 
-![My helpful screenshot](/assets/city/Screenshot_1.png)
+![My helpful screenshot](/assets/City/Screenshot_1.png)
 
 
 
@@ -24,8 +24,8 @@ is nothing special set.
 The closer the center is, the higher the building is, and the probability of appearing a park structure increases.
 
 
-![My helpful screenshot](/assets/city/Screenshot_2.png)
+![My helpful screenshot](/assets/City/Screenshot_2.png)
 
-![My helpful screenshot](/assets/city/Screenshot_3.png)
+![My helpful screenshot](/assets/City/Screenshot_3.png)
 
 
