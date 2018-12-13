@@ -43,7 +43,7 @@ Well, currently doing a lot of things, but, the most important are two of them:
 
  I will use to test all the things I could on my free time, but it will be used as well for another subject.
 
-> I new game aiming for the PS4, for a subject, that I still can not say anything about
+> A new game aiming for the PS4, for a subject, that I still can not say anything about :)
 
 On a team, where we can show what we can do, and having the possibility of working on a devKit, so that means extra researching, what sounds awesome!!
 
