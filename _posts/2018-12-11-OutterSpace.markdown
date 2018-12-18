@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OutterSpace"
+title:  "OutterSpace I"
 date:   2018-12-11
 categories: 
 date: 2018-07-10 
@@ -22,7 +22,7 @@ in the future, to keep testing everything that needs to be tested.
 So, two modes of working are available, the most simple one, for just test how it works, for example, creating a simple GameObject to be rendered.
 
 For that task we need several components, to let the system know everything is okay and can be used.
-{% highlight ruby linenos %}
+{% highlight c++ linenos %}
 //Main class, it could be a 'Node'.
 GameObject* testingCube = GameObjectSystem::get().createGameObject();
 //It needs to let the system know this entity can be rendered
@@ -37,14 +37,14 @@ testingCube->addComponent<Transform>();
 
 Then we need a mesh, to deal with it, the framework provides a simple function to load any wavefront/ obj.
 
-{% highlight ruby linenos %}
+{% highlight c++ linenos %}
 Mesh* newMesh = MeshSystem::get().generateBasicMesh("../../../assets/Cube.obj", "../../../assets");
 //Pass this mesh to our mesh filter, to apply it
 testingCube->getComponent<MeshFilter>()->appliedNewMesh(newMesh);
 {% endhighlight %}	
 
 We just need to init out material, and everything would be correctly configured.
-{% highlight ruby linenos %}
+{% highlight c++ linenos %}
 testingCube->getComponent<Material>()->init();
 testingCube->getComponent<Material>()->shader_->setNewVertexShader(readFile("../../../Engine/shaders/GLSL/SimpleVertex.vs", "r"));
 testingCube->getComponent<Material>()->shader_->setNewFragmentShader(readFile("../../../Engine/shaders/GLSL/SimplePixel.ps", "r"));
@@ -59,7 +59,7 @@ But if more flexibility is needed, the buffer can be completely customized using
 That's it, for example:
 
 
-{% highlight ruby linenos %}
+{% highlight c++ linenos %}
 // A custom buffer to keep tracking of the mesh information
 HighBuffer* buffNoInst = BufferSystem::get().createNewBuffer();
 //An empty mesh, to fill with custom data
