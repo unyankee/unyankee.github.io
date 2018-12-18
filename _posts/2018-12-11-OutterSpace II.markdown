@@ -11,6 +11,8 @@ categories:
 For this part of my project, I am researching about the best way of dealing with raytracing models.  
 As you can see, I am currently raytracing different models, it works, but the loop that needs to be done is quite a mess.  
 
+The image shows a rasterized cube, showing its normals on the left side, and on the right side is the version of the same, but completely raytraced.
+
 The most important thing I am trying to achieve is to avoid the maximum amount of loops on the shader, so I have different compute shaders.  
 
 One is for the init of the rays, dealing with a shared buffer between shaders, that is populated with the corresponding data.  
