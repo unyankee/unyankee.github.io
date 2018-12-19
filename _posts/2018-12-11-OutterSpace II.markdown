@@ -190,4 +190,49 @@ Also, I will need to consider if I should generate, Bounding Boxes between the s
 Because I can avoid calculating a collection of 1.000.000 triangles, but if I hit its Bounding box, we all know, I am not going to hit all of them, so
 narrowing the possible target triangle is always a must.
 
+Or maybe try a different approach, like 2 different buffers, one for all the data that is more sensible to be updated, like the world matrix, and a 
+separated buffer, for all the vertex data, so, if any mesh is rendered more than one time, it will be reused.  
+
+Something like this.  
+
+C++ Side
+{% highlight c++ linenos %}
+struct RaytracingMeshData{
+	size_t amountOfVertices;	
+	std::vector<float> vertices;
+	std::vector<float> AABBPoints;	
+	//How many points this mesh have
+	//The collection of points of this mesh
+	//The Bounding Box of this single Mesh
+}
+{% endhighlight %}	
+
+
+GLSL Side
+{% highlight glsl linenos %}
+struct DynamicData{
+	uint meshOffset;
+	mat4 worldMatrix;
+	//The offset needs to be applied to 
+	//the AllMeshData_ array, to acces the
+	//first element of the requested mesh
+	//The world matrix for this mesh
+	//representation
+};
+layout(binding = X) buffer customData{
+	float AllMeshData_[];
+};
+layout(binding = X + 1) buffer customData2{
+	DynamicData [];
+};
+{% endhighlight %}	
+
+But this method also have penalties, because I should have in any place a table of offsets or at least any method to effectively get the offset 
+of the Mesh data, to know where starts the collection of data I am interested in.
+
+I will try both approaches and continue researching a bit more because is very important to have this strongly built from the beginning, as is the core
+of how I am going to deal with all buffers data.
+
+
+All these examples considering a very simple AABB model, not a hierarchical one, so it will need more tweaking to fit my necessities.
 
