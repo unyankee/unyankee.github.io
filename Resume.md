@@ -13,7 +13,7 @@ I am a passionate young programmer with experience using Game Engines, such as U
 
 
 
-Always aiming to improve, and learning from the situation, and refining  my skills day by day.
+Someone who is always aiming to improve, and learning from the situation, and refining  my skills day by day.
 
 
 A fun-loving programmer, that enjoys what he does, but if is on a team, always better. Because to go further, we need to go together.
