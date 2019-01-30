@@ -8,7 +8,9 @@ date: 2015-06-10
 
 ## Star Castle custom clone
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XmtfiYYDiCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 First of all, the game is in a mix of Spanish and English, so sorry if something is not well understood, and it has a lot of jokes, that on that 
 the moment were fun, but maybe they were not as good as I remember them.

@@ -28,8 +28,9 @@ I have been busy these days, because of my last year project, and this Game I ha
 If you want to give it a try [click here](https://unyankee.itch.io/flag-capturer), but remember, it has one constraint,
 you will need to play with someone, and with controllers. I hope it enjoys you playing, as much as I making it.
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WLGi92EjzQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-
+</center>
 
 
 ## Main Idea

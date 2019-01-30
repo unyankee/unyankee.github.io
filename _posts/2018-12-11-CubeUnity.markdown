@@ -7,9 +7,9 @@ date: 2018-06-10
 ---
 
 ## Experimenting with unity
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q-Z1THYuJPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</center>
 ## Context
 
 A small test game, developed with some special constraints, only is possible to use both thumbsticks of the controller, and play with a friend
