@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "BeerEmUp"
+description:  "A whole game avaliable on steam"
 date:   2018-12-11
 categories: 
 date: 2018-06-11 

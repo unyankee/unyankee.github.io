@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "My first Game / Star Castle"
+description:  "My first Game made completely from scratch"
 date:   2018-12-11 18:13:49 +0000
 date: 2015-06-10 
 ---

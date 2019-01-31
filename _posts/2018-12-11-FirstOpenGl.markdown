@@ -2,6 +2,7 @@
 layout: post
 title:  "Procedural City"
 categories: 
+description:  "First time using OpenGL"
 date: 2017-06-10 
 ---
 

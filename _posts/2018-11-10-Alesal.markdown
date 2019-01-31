@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "First 3D Engine: Alesal"
+title:  "Alesal"
+description:  "My First Game Engine!"
 date:   2018-6-10
 categories: 
 date: 2018-06-15

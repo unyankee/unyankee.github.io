@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Cube Wanted to be a Ninja"
+description:  "Unity Game with special constraints"
 date:   2018-12-11
 categories: 
 date: 2018-06-10 

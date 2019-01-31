@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Search for a star 2019 / FlagCapturer"
+title:  "FlagCapturer"
+description:  "A game I made for the Search for a Star 2019"
 date:   2019-1-18
 categories: 
 ---

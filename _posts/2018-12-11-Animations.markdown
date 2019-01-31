@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "DX11-Animations"
+description:  "First time implementing animations"
 date:   2018-11-18
 categories: 
 ---

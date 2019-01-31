@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "OutterSpace I"
+description:  "My new Game Engine using OpenGL"
 date:   2018-12-11
 categories: 
 date: 2018-07-10 
