@@ -30,7 +30,7 @@ to recalculate to enter this new door.
 If they soldiers are persecuted by a guard, when they finish their task, they go to the nearest base, to avoid agglomerations. 
 If the alarm is given, the soldiers will not come back in until it is disconnected. 
 
-![My helpful screenshot](/assets/AI/screenshot_4.png)
+![My helpful screenshot](../assets/AI/screenshot_4.png)
 
 Guards are doing patrols for the interiors of the prison. 
 If during the patrols they see a soldier, they start chasing him so that when he leaves they close the door. 
@@ -54,7 +54,7 @@ the roads are calculated at the beginning of the road and from the end of the ro
 As well as the same road but turned around. 
 It also makes a difference of the roads by zones, by means of a second map, to know if they are in nearby or equal rooms. 
 
-![My helpful screenshot](/assets/AI/screenshot_6.png)
+![My helpful screenshot](../assets/AI/screenshot_6.png)
 
 
 The most common roads that are calculated, 
