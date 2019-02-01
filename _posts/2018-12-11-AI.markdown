@@ -1,0 +1,140 @@
+---
+layout: post
+title:  "AI Game"
+description:  "FSM application, using graphs"
+date:   2018-05-05
+categories: 
+---
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EvIWltiM40U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+The main logo that appears at the left top corner, was because the image I was provided have it.
+It represents the game studio of a teacher.
+
+
+Two tasks have been done here, one of which is the development of the algorithm A *, and the last task being the implementation of it.  
+The project has to fulfill a series of characteristics, using the algorithm of search of paths and a series of FSM for each one of the different agents.
+Being divided into 3 groups: 
+prisoners, which begin resting, and a series of shifts of work, being the first couple to work. 
+The prisoners take turns to work, but if the alarm is given, in the state in which they are, they decide which of the doors to go, if they arrive and is open, they flee, if they do not prove luck in the other. 
+ 
+If the alarm is deactivated and the prisoners are still inside the prison, they return to their work/rest. 
+ 
+If they leave the prison, they look for the nearest base and stay out. 
+ 
+Soldiers, their only job is to free the prisoners, opening the doors, they start at the bases, and they are waiting for orders. 
+From both bases, all soldiers try to open the A door, but if those starting on the side of Base B, realize the B door is open, they are going
+to recalculate to enter this new door.
+If they soldiers are persecuted by a guard, when they finish their task, they go to the nearest base, to avoid agglomerations. 
+If the alarm is given, the soldiers will not come back in until it is disconnected. 
+
+![My helpful screenshot](/assets/AI/screenshot_4.png)
+
+Guards are doing patrols for the interiors of the prison. 
+If during the patrols they see a soldier, they start chasing him so that when he leaves they close the door. 
+If an open door is found, they will close it and raise the alarm. 
+
+A pathfinder agent has been implemented, which takes the management of all the calculations to be made. 
+Also a basic messaging system, and a graph system to represent the paths.
+
+To speed up the movement of the agents, a pathfinder has been developed, 
+which is executed in a separate thread. 
+It works through requests, which unloads the calculation of the agents paths. 
+When a path is calculated, the agent who asked for is notified.
+
+![My helpful screenshot](/assets/AI/screenshot_3.png)
+
+
+The pathfinder, in turn, makes use of a series of tricks to speed up the search, 
+such as loading / saving a series of paths, which coincide with most of the paths in the execution time of the application. 
+If a road is requested, and the beginning and end are similar, 
+the roads are calculated at the beginning of the road and from the end of the road, to calculate less. 
+As well as the same road but turned around. 
+It also makes a difference of the roads by zones, by means of a second map, to know if they are in nearby or equal rooms. 
+
+![My helpful screenshot](/assets/AI/screenshot_6.png)
+
+
+The most common roads that are calculated, 
+the pathfinder also adds them to the possible ones to use, as well as an option to serialize the roads and load them, 
+in case you have to change the information by map, having them in an external file, instead of burned in the code.
+
+![My helpful screenshot](/assets/AI/screenshot_5.png)
+Is easy to see that the amount of available paths has grown since the startup of the app.
+
+It has also made use of a graph system, 
+which tells us if from one point you can reach another, 
+linking different roads through different areas. 
+It is different from the graph that indicates if one zone is linked to another, 
+since it also returns the already calculated paths and concatenates them.
+
+
+A small messaging system has been implemented by which the agents are notified if they have to change the shifts of the workers, 
+if the alarm and the status of the doors has been given. 
+The possibility of adding state of different variables to a common table where all agents can consult the state of the world 
+has also been added.
+ 
+ 
+Capture of the matrix used together with the paths that make up the graph
+
+
+![My helpful screenshot](/assets/AI/screenshot_3.png)
+
+
+
+Given the amount of conditions to evaluate in each state, 
+in some cases it has become necessary to use sub-machines, in order to clean each machine. 
+An example would be the prisoners work or fleeing status.
+
+
+Prisoner: 
+It has a total of 9 different states, to manage what is currently doing.  
+
+![My helpful screenshot](/assets/AI/screenshot_7.png)
+
+Alarm refers to the global variable of "Alarm", given when closing a door. The shift changes through the message system.
+
+
+Working is splited up like this:  
+
+![My helpful screenshot](/assets/AI/screenshot_8.png)
+
+Each occurrence of myPath.end () refers to the destination being reached, this being the end of the path.
+
+
+Running away is:
+
+![My helpful screenshot](/assets/AI/screenshot_9.png)
+
+
+Guard: 
+It has a total of 8 different states, to manage what is currently doing.  
+
+![My helpful screenshot](/assets/AI/screenshot_10.png)
+
+In this case PossibleT refers to if a soldier has been sighted.
+
+Tracking is:
+
+![My helpful screenshot](/assets/AI/screenshot_11.png)
+
+Check doors is:
+
+![My helpful screenshot](/assets/AI/screenshot_12.png)
+
+
+Soldier:
+It has a total of 7 different states, to manage what is currently doing.  
+
+![My helpful screenshot](/assets/AI/screenshot_13.png)
+
+Outside behavior is:
+
+![My helpful screenshot](/assets/AI/screenshot_14.png)
+
+InsideBehavior is:
+
+![My helpful screenshot](/assets/AI/screenshot_15.png)
+
