@@ -44,8 +44,9 @@ which is executed in a separate thread.
 It works through requests, which unloads the calculation of the agents paths. 
 When a path is calculated, the agent who asked for is notified.
 
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_3.png)
-
+-->
 
 The pathfinder, in turn, makes use of a series of tricks to speed up the search, 
 such as loading / saving a series of paths, which coincide with most of the paths in the execution time of the application. 
@@ -54,8 +55,10 @@ the roads are calculated at the beginning of the road and from the end of the ro
 As well as the same road but turned around. 
 It also makes a difference of the roads by zones, by means of a second map, to know if they are in nearby or equal rooms. 
 
-![My helpful screenshot](/assets/AI/screenshot_6.png)
 
+<!---
+![My helpful screenshot](/assets/AI/screenshot_6.png)
+-->
 
 The most common roads that are calculated, 
 the pathfinder also adds them to the possible ones to use, as well as an option to serialize the roads and load them, 
@@ -79,9 +82,9 @@ has also been added.
  
 Capture of the matrix used together with the paths that make up the graph
 
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_3.png)
-
+-->
 
 
 Given the amount of conditions to evaluate in each state, 
@@ -91,50 +94,50 @@ An example would be the prisoners work or fleeing status.
 
 Prisoner: 
 It has a total of 9 different states, to manage what is currently doing.  
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_7.png)
-
+-->
 Alarm refers to the global variable of "Alarm", given when closing a door. The shift changes through the message system.
 
 
 Working is splited up like this:  
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_8.png)
-
+-->
 Each occurrence of myPath.end () refers to the destination being reached, this being the end of the path.
 
 
 Running away is:
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_9.png)
 
 
 Guard: 
 It has a total of 8 different states, to manage what is currently doing.  
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_10.png)
-
+-->
 In this case PossibleT refers to if a soldier has been sighted.
 
 Tracking is:
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_11.png)
-
+-->
 Check doors is:
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_12.png)
-
+-->
 
 Soldier:
 It has a total of 7 different states, to manage what is currently doing.  
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_13.png)
-
+-->
 Outside behavior is:
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_14.png)
-
+-->
 InsideBehavior is:
-
+<!---
 ![My helpful screenshot](/assets/AI/screenshot_15.png)
 
