@@ -78,7 +78,7 @@ has also been added.
 Capture of the matrix used together with the paths that make up the graph
 
 
-![My helpful screenshot](/assets/AI/screenshot_3.png)
+![My helpful screenshot](/assets/Alesal/screenshot_1.png)
 
 
 
