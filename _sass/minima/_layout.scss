@@ -206,22 +206,21 @@
   border-radius: 50px;
   display: inline-block;
   
+  
   margin: 15px;
-
+margin-left:0px;
+  
   height: 500px; 
   
   min-width: 250px;
   max-width: 500px;
-  
-  
-  
+    
   /* Width Height Transition */
   -webkit-transition-property: width, height;
   transition-property: width, height;
   transition-duration: 0.25s;
   
-  /* Width Height Transition */
-  
+   
   
   h3{
 	padding-top: 20px;	
@@ -237,8 +236,14 @@
   img{
 	display: block;
     margin:auto auto;
-    width: 75%;
+    
+	
     height: 75%;
+	
+	min-width: 75%;
+    max-width: 100%;
+  
+	
 	border-radius: 50%;
 	opacity:0.5;	
 	
@@ -255,9 +260,7 @@
 }
 
 .Container:hover{	
-	height:550px;
-	width:550px;
-	
+	height:550px;	
 }
 
 .post-list {
