@@ -5,7 +5,7 @@ description:  "Unity Game with special constraints"
 date:   2018-12-11
 categories: 
 date: 2018-06-10 
-image: /assets/GameJam/Screenshot_16.png
+image: https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/gameJam/Screenshot_16.png
 ---
 
 ## Experimenting with unity
