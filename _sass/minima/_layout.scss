@@ -209,7 +209,11 @@
   margin: 15px;
 
   height: 500px; 
-  width: 500px;
+  
+  min-width: 250px;
+  max-width: 500px;
+  
+  
   
   /* Width Height Transition */
   -webkit-transition-property: width, height;
