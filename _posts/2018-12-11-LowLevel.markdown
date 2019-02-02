@@ -4,6 +4,7 @@ title:  "Low level Lens"
 date:   2018-12-11 18:13:49 +0000
 description:  "Optimizing an algorithm"
 date: 2018-06-10 
+image: /assets/lens/screenshot.png
 ---
 ## Low level optimization
 

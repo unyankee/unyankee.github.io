@@ -4,6 +4,7 @@ title:  "FlagCapturer"
 description:  "A game I made for the Search for a Star 2019"
 date:   2019-1-18
 categories: 
+image: /assets/FlagCapturer/Design6.png
 ---
 ## My Entry for Search for a star 2019
 

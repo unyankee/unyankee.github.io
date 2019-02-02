@@ -4,6 +4,7 @@ title:  "Procedural City"
 categories: 
 description:  "First time using OpenGL"
 date: 2017-06-10 
+image: /assets/City/Screenshot_1.png
 ---
 
 

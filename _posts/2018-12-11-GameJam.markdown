@@ -5,6 +5,7 @@ description:  "My first GameJam game!"
 date:   2018-12-11
 categories: 
 date: 2017-02-15 
+image: /assets/gameJam/Screenshot_0.png
 ---
 
 

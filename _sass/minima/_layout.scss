@@ -186,7 +186,11 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  
+   
 }
+
+
 
 .page-heading {
   @include relative-font-size(2);
@@ -194,6 +198,62 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  text-align:center;
+}
+.Container{
+  
+  border: 1px solid orange;
+  border-radius: 50px;
+  display: inline-block;
+  
+  margin: 15px;
+
+  height: 500px; 
+  width: 500px;
+  
+  /* Width Height Transition */
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  transition-duration: 0.25s;
+  
+  /* Width Height Transition */
+  
+  
+  h3{
+	padding-top: 20px;	
+	text-align:center;
+  }
+  
+  span{    
+	padding-left: 5px;
+	margin:auto;
+	display:table; 
+  }
+  
+  img{
+	display: block;
+    margin:auto auto;
+    width: 75%;
+    height: 75%;
+	border-radius: 50%;
+	opacity:0.5;	
+	
+	-webkit-transition: opacity 0.25s ease-in-out;
+       -moz-transition: opacity 0.25s ease-in-out;
+        -ms-transition: opacity 0.25s ease-in-out;
+         -o-transition: opacity 0.25s ease-in-out;
+            transition: opacity 0.25s ease-in-out;
+	
+  }
+  img:hover{
+	opacity:1.0;
+  }
+}
+
+.Container:hover{	
+	height:550px;
+	width:550px;
+	
 }
 
 .post-list {
@@ -231,6 +291,13 @@
   letter-spacing: -1px;
   line-height: 1;
   
+  max-width:1080px;
+  margin:0 auto;
+  position:relative;
+  padding: 0 20px;
+  
+  
+  
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
@@ -239,6 +306,12 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  
+  max-width:1080px;
+  margin:0 auto;
+  position:relative;
+  padding: 0 20px;
+  
   h2 {
     @include relative-font-size(2);
 
@@ -312,11 +385,19 @@ body {
 }
 
 .wrapper2 {
+  max-width:100%;  
+  margin:0 auto;
+  position:relative;
+  padding: 0 0px;
+}
+
+.wrapper {
   max-width:650px;
   margin:0 auto;
   position:relative;
   padding: 0 20px;
 }
 
+ 
 
 

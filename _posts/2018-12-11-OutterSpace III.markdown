@@ -4,6 +4,7 @@ title:  "OutterSpace III"
 description:  "Speeding up my raytracer"
 date:   2019-1-20
 categories: 
+image: /assets/OutterSpace/BuffersLayout.png
 ---
 
 

@@ -5,6 +5,7 @@ description:  "My First Game Engine!"
 date:   2018-6-10
 categories: 
 date: 2018-06-15
+image: /assets/Alesal/Screenshot_2.png
 ---
 
 ![MainScreenShot](/assets/Alesal/Screenshot_1.png)

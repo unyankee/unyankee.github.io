@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "My first Game / Star Castle"
+title:  "Star Castle"
 description:  "My first Game made completely from scratch"
 date:   2018-12-11 18:13:49 +0000
 date: 2015-06-10 
+image: /assets/StarCastle/Menu.png
 ---
 
 
@@ -19,7 +20,7 @@ the moment were fun, but maybe they were not as good as I remember them.
 Although was not strictly my first game, it is my first project I am proud of, because it was first 'big', made meanwhile
 I still was learning how to code.
 
-A game made completely from scratch using C++, and a simple Graphics library, just drawing lines, sprites, and texts.
+A game made completely from scratch using C, and a simple Graphics library, just drawing lines, sprites, and texts.
 
 It has several menus, and several features implemented from scratch.
 

@@ -11,22 +11,27 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
    
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
+	  <div class = "Container">
+	  <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-		  {{ post.description}}
+		  {{ post.description}}		   
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
+	  <a href="{{ post.url | relative_url }}">
+		<img src ={{ post.image}}> 
+	  </a>
+	  </div>      
       {%- endfor -%}
     </ul>
 

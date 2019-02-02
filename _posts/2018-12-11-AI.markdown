@@ -4,6 +4,7 @@ title:  "AI Game"
 description:  "FSM application, using graphs"
 date:   2018-05-05
 categories: 
+image: https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/AI/Screenshot_4.png
 ---
 
 <center>
