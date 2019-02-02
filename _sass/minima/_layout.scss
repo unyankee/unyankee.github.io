@@ -208,12 +208,12 @@
   
   
   margin: 15px;
-margin-left:0px;
+  margin-left:0px;
   
-  height: 500px; 
+  height: 400px; 
   
   min-width: 250px;
-  max-width: 500px;
+  max-width: 400px;
     
   /* Width Height Transition */
   -webkit-transition-property: width, height;
@@ -260,7 +260,7 @@ margin-left:0px;
 }
 
 .Container:hover{	
-	height:550px;	
+	height:450px;	
 }
 
 .post-list {
