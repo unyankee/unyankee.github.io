@@ -6,7 +6,7 @@ body {
   padding:0px 0 20px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#f0e7d5;
+  color:$bodyC;
   font-weight: normal;
   background: #252525;
   background-attachment: fixed !important;
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#e8e8e8;
+  color:$allHeaders;
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -37,7 +37,7 @@ h2 {
 }
 
 h4, h5, h6 {
-  color:#e8e8e8;
+  color:#$allHeaders;
 }
 
 h3 {
@@ -45,7 +45,7 @@ h3 {
   line-height: 24px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
-  color: #b6b6b6;
+  color: $grey;
 }
 
 a {
@@ -127,7 +127,7 @@ th {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #434343;
-  color: #b6b6b6;
+  color: $grey;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
@@ -147,7 +147,7 @@ hr {
 }
 
 dt {
-  color:#F0E7D5;
+  color:$bodyC;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }

@@ -11,12 +11,24 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
+$boxesColor:       #86c232 !default;
+$boxesColorHover:  #61892f !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
+$link-Color:   #86c232 !default;
+$TextPosts:   #d1d7e0 !default;
+$bodyC:   #f0e7d5 !default;
+$grey:   #b6b6b6 !default;
+$abackground:   #222629 !default;
+$fullWhite:  #6b6e70 !default;
+$allHeaders:  #86c232 !default;
+
+
 
 $table-text-align: left !default;
 

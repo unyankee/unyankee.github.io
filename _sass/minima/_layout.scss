@@ -42,7 +42,7 @@
   }
 
   .page-link {
-    color:#E87400;
+    color:$link-Color;
 	margin:0 0 10px;
     line-height: $base-line-height;
 	font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -59,7 +59,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: #333333;
-    border: 1px solid #E87400;
+    border: 1px solid $link-Color;
     border-radius: 5px;
     text-align: right;
 	z-index: 10;
@@ -202,7 +202,7 @@
 }
 .Container{
   
-  border: 1px solid orange;
+  border: 1px solid #86c232;
   border-radius: 50px;
   display: inline-block;
   float: left;
@@ -258,7 +258,7 @@
 
 .Container:hover{	
 	border-radius: 75px;
-	border: 1px solid red;
+	border: 1px solid $boxesColorHover;
 }
 
 .post-list {
@@ -273,13 +273,13 @@
 
 .post-meta {  
   font-size: $small-font-size;
-  color: #AAAAAA;
+  color: $fullWhite;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-  color: #AAAAAA;
+  color: $fullWhite;
 }
 
 
@@ -343,7 +343,7 @@
   }
 }
 h1, h2, h3, h4, h5, h6 {
-  color:#e8e8e8;
+  color:$allHeaders;
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -353,18 +353,18 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 a {
-  color:#ffcc00;
+  color:#link-Color;
   font-weight:400;
   text-decoration:none;
   
   &:hover {
-    color: #ffeb9b;
+    color: $link-Color;
   }
   &:link {
-    color: #E87400;
+    color: $link-Color;
   }
   &:visited {
-    color:#E87400;
+    color:$link-Color;
   }
   
 }
@@ -373,9 +373,9 @@ body {
   padding:0px 0 20px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#f0e7d5;
+  color:$bodyC;
   font-weight: normal;
-  background: #252525;
+  background: $abackground;
   background-attachment: fixed !important;
   background: linear_gradient(#2a2a29, #1c1c1c);
 }
