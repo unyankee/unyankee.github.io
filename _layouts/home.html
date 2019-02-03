@@ -22,7 +22,10 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>		  
+		  
+		  <a href="{{ post.url | relative_url }}">
             {{ post.description}}		             		  
+		  </a>		  
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
