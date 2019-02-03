@@ -14,27 +14,44 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
     
       {%- for post in site.posts -%}
-	  <div class = "Container">
+	  <div class = "Container">	  
 	  
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+	  	  
+	  <div class = "ContainerImage">	    
+	  <a href="{{ post.url | relative_url }}">
+		<img src ={{ post.image}}> 
+	  </a>
+	  </div>
+	  
+	  <div class = "NoImageDiv">	    
+	  
+	  <div class = "ContainerTime">	    
+		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}	  
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+	  </div>	  
+	  
+	       	 
+        <div class = "ContainerTitle">	    
+		<h1>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-          </a>		  
+          </a>		 		  
+		</div>	    
 		  
-		  <a href="{{ post.url | relative_url }}">
-            {{ post.description}}		             		  
-		  </a>		  
-        </h3>
+        </h1>
+		
+		<div class = "ContainerDescription">	    		
+            {{ post.description}}		             		  		 
+		</div>	    
+				
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      
-	  <a class="ImageContainer" href="{{ post.url | relative_url }}">
-		<img src ={{ post.image}}> 
-	  </a>
+        	  
 	  </div>      
+	  
+	  </div>	  
+	  <!--<hr/ class = "lineClass">-->
       {%- endfor -%}
     
 
