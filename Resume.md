@@ -61,7 +61,7 @@ I can communicate myself in:
 * Swift
 * HTML / CSS
 * Java
-* JavScript
+* JavaScript
 * GLSL
 * ASM
 * LUA
