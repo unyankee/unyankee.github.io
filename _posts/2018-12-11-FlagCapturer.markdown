@@ -172,22 +172,19 @@ A list of all the external assets that has been used.
 
 ![My helpful screenshot](/assets/FlagCapturer/Cover.png)  
 
-![My helpful screenshot](/assets/FlagCapturer/Cover2.png)  
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover2.png)  
 
-![My helpful screenshot](/assets/FlagCapturer/Cover3.png)  
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover3.png)  
 
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover4.png)  
 
-![My helpful screenshot](/assets/FlagCapturer/Cover4.png)  
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover5.png)  
 
-![My helpful screenshot](/assets/FlagCapturer/Cover5.png)  
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover6.png)  
 
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover8.png)  
 
-![My helpful screenshot](/assets/FlagCapturer/Cover6.png)  
-
-
-![My helpful screenshot](/assets/FlagCapturer/Cover8.png)  
-
-![My helpful screenshot](/assets/FlagCapturer/Cover9.png)  
+![My helpful screenshot](https://raw.githubusercontent.com/unyankee/unyankee.github.io/master/assets/FlagCapturer/cover9.png)  
 
 
 
