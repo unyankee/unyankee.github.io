@@ -7,12 +7,12 @@ permalink: /Resume/
 
 # [My Personal Blog](http://unyankee.github.io/)
 
+
+
+
 ## Who Am I?
 
-
 I am a passionate young programmer with experience using Game Engines, such as Unity or Unreal Engine 4. Also experienced in 3D real-time rendering techniques. And a graphics programming lover.
-
-
 
 Someone who is always aiming to improve, learning from the situation, and refining  my skills day by day.
 

@@ -15,7 +15,33 @@
     {% include sidebarCV.html %}
 
     <div class="main-wrapper">
+
+
+{% include career-profile.html %}
+
+{% include experiences.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
+
+{% include references.html %}
+
+{% include projects.html %}
+
+{% include publications.html %}
+
+{% include skills.html %}
+<!--
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
         {{ content }}
+-->
     </div>
   </div>
 
@@ -43,6 +69,7 @@
       <div class="wrapper2">
         {{ content }}
       </div>
+
 	  
     </main>
 </div>

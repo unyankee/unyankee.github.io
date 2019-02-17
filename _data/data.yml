@@ -4,7 +4,7 @@
 
 sidebar:
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: false # set to False if you want education in main section instead of in sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Enrique Alemany Martínez
@@ -30,17 +30,193 @@ sidebar:
      
       - idiom: Spanish
         level: Native
+    
+    interests:
+      games: 
+        - name: Halo (saga)
+        - name: Halo Wars
+        - name: Warframe
+        - name: Hollow Knight
+        - name: Gears of War
+        - name: Elite Dangerous
+        - name: Terraria
+        - name: Dead Cells
+        - name: Borderlands
+        - name: Magicka
+        - name: Forza Horizon        
+
+      gameJams: 
+        - name: Ludum Dare
+
+      other: 
+        - name: Music
+
+      sports: 
+        - name: Cycling 
+
+
 
 career-profile:
-    title: Career Profile
+    title: Personal Details
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+        Passionate young programmer with experience using C++,  Game Engines, such as Unity or Unreal Engine 4 or Unity. 
+        Also experienced in 3D real-time rendering techniques.  
+
+        Great problem-solving and team-working skills
+        
+        Always aiming to improve, learning from the situation, and refining  my skills day by day.  
+
+        I am looking forward to join a team where I could share my passion about games, and continue learning.
+
+        In my spare time I really love working on personal projects or make small games.
+      
 
 
 
 footer: >
     
+experiences:
+    - role: Gameplay Programmer at Rocket Banana
+      time: 2017 - 2018
+      company: Esat end year project
+      details: |
+        A team we had when studying at Esat, developing a game and learning Unreal, and released on Steam.  
+        My contributions are mainly related to gameplay.
+          - Main character movement 
+          - Enemies behaviour and movement
+          - Main Menu Design & Implementation
+          - Implementation of local multiplayer
+      possibleLink: https://store.steampowered.com/app/945880/Beerem_Up/    
+      projectname: You can try BeerEmUp here
+
+    - role: Programmer
+      time: 2017 - 2018
+      company: Esat end year Game Engine
+      details: |
+        With the help of a partner, We developed a 3D Game Engine, using Open GL, capable of PBR rendering, deferred rendering, and
+        lots of postprocesses, like SSAO, SSR, Bloom... To learn how a Game Engine performs.          
+      possibleLink: https://unyankee.github.io/2018/06/15/Alesal.html
+      projectname: Alesal 3D Game Engine is here
+
+
+    - role: Programmer
+      time: 2019 
+      company: Search for a star 2019
+      details: |
+        A small game I made, for the Search for a star 2019 contest.        
+      possibleLink: https://unyankee.itch.io/flag-capturer
+      projectname: Flag Capturer is avaliable on itch.io here
+
+
+
+education:
+    - degree: BTEc Level 5 HND in Computing And Systems Develpment 
+      university: ESAT
+      time: 2015 - 2018
+      grade: Graduated with Distinction
+      details: |
+       Graduated with Distinction
+          
+    - degree: BSc(honours) Computer Science for Games
+      university: Sheffield Hallam University
+      time: 2018 - Expected 2019
+      grade: Aiming To first
+      details: |
+        Currently studying at Sheffield Hallam University, and researching 
+        about GPGPU programming
+          
+
+references:
+  - name: Gustavo Aranda
+    Role: Programme Leader at ESAT
+    email: garanda@esat.es
+
+  - name: Juan Diego Alegre
+    Role: Project Manager at ESAT
+    email: jd@esat.es
+
+skills:
+    title: Skills 
+
+    language:
+      
+      - name: C 
+        level: 0%
+
+      - name: C++ 
+        level: 0%
+
+      - name: C#
+        level: 0%
+
+      - name: Swift
+        level: 0%
+
+      - name: HTML 
+        level: 10%
+
+      - name: CSS
+        level: 70%
+
+      - name: Java
+        level: 100%
+
+      - name: JavaScript
+        level: 0%
+
+      - name: GLSL 
+        level: 10%
+
+      - name: HLSL
+        level: 0%
+
+      - name: ASM
+        level: 0%
+
+      - name: LUA
+        level: 0%
+      
+    SourceControl:
+
+      - name: GIT
+
+      - name: Perforce
+
+    APIS: 
+
+      - name: OpenGL 3.X/4.X
+
+      - name: DX11 (framework)
+
+    Engines: 
+
+      - name: Unreal Engine 4
+
+      - name: Unity
+
+    IDES:  
+
+      - name : Visual Studio 
+      - name : XCode
+      - name : Android Studio
+
+    Debug:  
+
+      - name : Visual Studio 
+      - name : RenderDoc
+      - name : Xcode
+      - name : Android Studio
+
+    Other:
+      - name : Scrum
+      - name : Constant Researching
+      - name : Team working
+      - name : Agile Software Development
+
+    Platforms:
+      - name : Windows
+      - name : Linux
+      
+
+        
+

@@ -17,17 +17,22 @@
 
   </div><!--//profile-container-->
 
+  
   {% include contact.html %}
-
+  <hr>
   {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
 
+  <hr>
   {% include language.html %}
-  {% include interests.html %}
+  <hr>
 
+  {% include interests.html %}
+  <hr>
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
+  
 
 </div><!--//sidebar-wrapper-->

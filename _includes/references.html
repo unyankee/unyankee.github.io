@@ -1,0 +1,34 @@
+{% assign experiences = site.data.data.references %}
+{% if experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-file-contract"></i>
+    </span>
+    References
+  </h2>
+
+  {% for reference in experiences %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+      <ul>
+        <h3 class="job-title">{{ reference.name }}</h3>              
+        </div><!--//upper-row-->     
+        <div style = "width: 100%;margin-left: 10%;" class="company"><li>{{ reference.Role }}</li></div>
+        <div style = "width: 100%;margin-left: 10%;" class="company"><a href="mailto:{{ reference.email }}"><li>{{ reference.email }}</li></a></div>
+      </ul>
+      <hr style= "padding-top: :10px; margin:1px;width: 80%;vertical-align: middle;">      
+
+    </div><!--//meta-->
+
+
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+

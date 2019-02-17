@@ -6,17 +6,40 @@
     Interests
   </h2>
 
-  <ul class="list-unstyled interests-list">
-    {% for interest in interests %}
-
-      {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
-      {% else %}
-      <li>{{ interest.item }}</li>
-      {% endif %}
-
-    {% endfor %}
+  <hr>
+  <h5>Games</h5>
+  <ul class="list-unstyled interests-list">    
+  {% for value in interests.games %}
+        <li style = "margin-left: 10px">{{ value.name }}</li>      
+  {% endfor %}          
   </ul>
+  
+  <hr>
+  <h5>Game Jams</h5>
+  <ul class="list-unstyled interests-list">    
+  {% for value in interests.gameJams %}
+        <li style = "margin-left: 10px">{{ value.name }}</li>      
+  {% endfor %}          
+  </ul>
+
+
+  <hr>
+  <h5>Other</h5>
+  <ul class="list-unstyled interests-list">    
+  {% for value in interests.other %}
+        <li style = "margin-left: 10px">{{ value.name }}</li>      
+  {% endfor %}          
+  </ul>
+  
+  <hr>
+  <h5>Sports</h5>
+  <ul class="list-unstyled interests-list">    
+  {% for value in interests.sports %}
+        <li style = "margin-left: 10px">{{ value.name }}</li>      
+  {% endfor %}          
+  </ul>
+  <hr>  
+
 
 </div><!--//interests-->
 {% endif %}
