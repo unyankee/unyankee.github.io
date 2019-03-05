@@ -153,24 +153,24 @@ skills:
         level: 0%
 
       - name: HTML 
-        level: 10%
+        level: 0%
 
       - name: CSS
-        level: 70%
+        level: 0%
 
       - name: Java
-        level: 100%
+        level: 0%
 
       - name: JavaScript
         level: 0%
 
       - name: GLSL 
-        level: 10%
+        level: 0%
 
       - name: HLSL
         level: 0%
 
-      - name: ASM
+      - name: ASM (ARM)
         level: 0%
 
       - name: LUA
