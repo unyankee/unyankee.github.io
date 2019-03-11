@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "OutterSpace III"
-description:  "Speeding up my raytracer"
-date:   2019-1-20
+title:  "Realtime Raytracing"
+description:  "A WIP post, explaining what I did"
+date:   2019-2-20
 categories: 
 image: /assets/OutterSpace/demo2.png
 ---
