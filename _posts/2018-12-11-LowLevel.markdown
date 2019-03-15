@@ -11,7 +11,7 @@ image: /assets/lens/screenshot.png
 ![My helpful screenshot](/assets/lens/screenshot.png)
 
 Small project, consisting of many lenses, deforming the displayed image.  
-A project to optimize the most of different algorithms, precalculating every possible data, and operating using fixed integer data types, 
+A project to optimize the most of different algorithms, precalculating every possible data, and operating using fixed-point integer, 
 and different buffer copies methods to deal with images of variable dimensions
 
 Tested on a Raspberry Pi 3 model b.
