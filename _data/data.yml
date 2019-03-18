@@ -4,7 +4,7 @@
 
 sidebar:
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: true # set to False if you want education in main section instead of in sidebar
+    education: false # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Enrique Alemany Martínez
@@ -59,18 +59,15 @@ sidebar:
 career-profile:
     title: Personal Details
     summary: |
-        Passionate young programmer with experience using C++,  Game Engines, such as Unity or Unreal Engine 4. 
-        Also experienced in 3D real-time rendering techniques.  
+        Passionate young programmer with experience using C++, Game Engines, such as Unity or Unreal Engine 4 or. Also experienced in 3D real-time rendering techniques.          
 
-        Great problem-solving and team-working skills
-        
-        Always aiming to improve, learning from the situation, and refining  my skills day by day.  
+        Great problem-solving and team-working skills.  
 
-        I am looking forward to join a team where I could share my passion about games, and continue learning.
+        Always aiming to improve, learning from the situation, and refining my skills day by day.  
 
-        In my spare time I really love working on personal projects or make small games.
-      
+        I am looking forward to join a team where I could share my passion about games, and continue learning. In my spare time I really love working on personal projects or make small games.  
 
+        Currently researching about GPGPU programming, and developing a raytracing stage for   my custom 3d Game Engine.
 
 
 footer: >
@@ -100,12 +97,10 @@ experiences:
 
 
     - role: Programmer
-      time: 2019 
-      company: Search for a star 2019
+      time: 2018 - xxxx
+      company: Personal Project
       details: |
-        A small game I made, for the Search for a star 2019 contest.        
-      possibleLink: https://unyankee.itch.io/flag-capturer
-      projectname: Flag Capturer is avaliable on itch.io here
+        Currently learning about different graphics pipelines and proper structures development, doing my new 3D Game Engine, called OutterSpace, and being my first open source project.            
 
 
 

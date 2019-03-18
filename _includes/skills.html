@@ -11,78 +11,29 @@
   </h2>
 
 
+
+
   <div class="skillset">
-    <h2 style="margin-top: 10px"class="section-title">Languages</h2>
-    {% for skill in skills.language %}
-    <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>    
-      <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-      <!--<div class="level-bar">-
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-    </div><!--//item-->
-    {% endfor %}
+   
+   <table style=" border: none; margin-bottom: 50px;">
+  <tr>
+    <th style="height: 50px;">Languages</th>
+    <th style="height: 50px;">C++, C, GLSL, HLSL, ASM (ARM)</th>   
+  </tr>
+  <tr>
+    <th style="height: 50px;">3d Graphics APIS</th>
+    <th style="height: 50px;">OpenGL 3.x, 4.x(Personal Research projects), Dx11 (University framework)</th>   
+  </tr>
+  <tr>
+    <th style="height: 50px;">Game engine</th>
+    <th style="height: 50px;">Unreal Engine 4(Published game), Unity3D (Small personal projects)</th>       
+  </tr>
+  <tr>
+    <th style="height: 50px;">Other</th>
+    <th style="height: 50px;">Source Control (Git, Perforce), Debugging, Visual Studio, Render Doc, Scrum</th>   
+  </tr>
+</table> 
 
-
-
-    <h2 style="margin-top: 30px"class="section-title">Source Control</h2>
-    {% for sourceControl in skills.SourceControl %}
-    <div class="item">
-      <h3 class="level-title">{{ sourceControl.name }}</h3>    
-      <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-    
-    <h2 style="margin-top: 30px"class="section-title">API'S</h2>
-    {% for api in skills.APIS %}
-    <div class="item">
-      <h3 class="level-title">{{ api.name }}</h3>    
-     <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-
-    <h2 style="margin-top: 30px"class="section-title">Engines</h2>
-    {% for engine in skills.Engines %}
-    <div class="item">
-      <h3 class="level-title">{{ engine.name }}</h3>    
-      <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-    
-    <h2 style="margin-top: 30px"class="section-title">IDE's</h2>
-    {% for ides in skills.IDES %}
-    <div class="item">
-      <h3 class="level-title">{{ ides.name }}</h3>    
-      <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-
-    <h2 style="margin-top: 30px"class="section-title">Debugging</h2>
-    {% for deb in skills.Debug %}
-    <div class="item">
-      <h3 class="level-title">{{ deb.name }}</h3>    
-     <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-    
-
-    <h2 style="margin-top: 30px"class="section-title">Other</h2>
-    {% for ot in skills.Other %}
-    <div class="item">
-      <h3 class="level-title">{{ ot.name }}</h3>    
-     <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-    
-    <h2 style="margin-top: 30px"class="section-title">Platforms</h2>
-    {% for plat in skills.Platforms %}
-    <div class="item">
-      <h3 class="level-title">{{ plat.name }}</h3>    
-     <hr style= "display: block; padding-top: :10px;  float: left; margin:1px;width: 100%;vertical-align: middle; ">
-    </div><!--//item-->
-    {% endfor %}
-    
 
   </div>
 
