@@ -19,12 +19,14 @@ Some screenshots here
 
 ![My helpful screenshot](/assets/OutterSpace/Screenshot_7.png)  
 
+![My helpful screenshot](/assets/OutterSpace/fixed.png)  
+
 ![My helpful screenshot](/assets/OutterSpace/demo1.png)  
 
-![My helpful screenshot](/assets/OutterSpace/fixed.png)  
+![My helpful screenshot](/assets/OutterSpace/demo2.png)
 
 ![My helpful screenshot](/assets/OutterSpace/diorama.gif)  
 
-![My helpful screenshot](/assets/OutterSpace/demo2.png)
+
 
 
