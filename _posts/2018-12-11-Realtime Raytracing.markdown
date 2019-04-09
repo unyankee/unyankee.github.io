@@ -14,3 +14,17 @@ I need to explain how I dealt with the acceleration structure on GPU, how is cre
 So, all the information will be added as soon I complete my whole task, and as soon I can double ched everything is correct.
 
 Thanks for waiting :)
+
+Some screenshots here 
+
+![My helpful screenshot](/assets/OutterSpace/Screenshot_7.png)  
+
+![My helpful screenshot](/assets/OutterSpace/demo1.png)  
+
+![My helpful screenshot](/assets/OutterSpace/fixed.png)  
+
+![My helpful screenshot](/assets/OutterSpace/diorama.gif)  
+
+![My helpful screenshot](/assets/OutterSpace/demo2.png)
+
+
