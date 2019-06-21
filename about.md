@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Who am I?
 
- I am a young programmer, who always wanted to know how everything was made. I obtained my HND in Computing & Systems Development, at ESAT, and then I got the chance to study abroad on Sheffield, where I got the top mark of the year.
+ I am a young programmer, who always wanted to know how everything was made. I obtained my HND in Computing & Systems Development, at ESAT, and then I got the chance to study abroad on Sheffield, where I got the top mark in the year!!
 
  Currently I am working as a trainee graphics programmer on Creative Assembly.
 
