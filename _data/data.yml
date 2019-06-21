@@ -73,7 +73,8 @@ career-profile:
 footer: >
     
 experiences:
-     - role: Graphics Programmer Trainee
+    
+    - role: Graphics Programmer Trainee
       time: 2019 - xxxx
       company: Creative Assembly
       details: |
