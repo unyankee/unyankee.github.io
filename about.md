@@ -6,12 +6,9 @@ permalink: /about/
 
 ## Who am I?
 
-I am a young programmer, who always wanted to know how everything was made. I obtained my HND in Computing & Systems Development, at ESAT.
+ I am a young programmer, who always wanted to know how everything was made. I obtained my HND in Computing & Systems Development, at ESAT, and then I got the chance to study abroad on Sheffield, where I got the top mark of the year.
 
-Currently studying abroad, at Sheffield Hallam University, where I expect to get my BSc(honors).
-
-
-I am looking for working on the industry, I really would like to, and meet new people with the same feelings about games than me. It would be completely awesome to work on a passionate team.
+ Currently I am working as a trainee graphics programmer on Creative Assembly.
 
 
 ## What have I done?
@@ -41,17 +38,17 @@ Well, currently doing a lot of things, but, the most important are two of them:
 
 > My first Open Source project, hosted on GitHub, a WIP 3D Game Engine called OutterSpace.
 
- I will use to test all the things I could on my free time, but it will be used as well for another subject.
+ I will use it to test all the things I could on my free time, so some times it might be like a chaos :)
 
-> A new game aiming for the PS4, for a subject, that I still can not say anything about :)
+<!-- > A new game aiming for the PS4, for a subject, that I still can not say anything about :)
 
 On a team, where we can show what we can do, and having the possibility of working on a devKit, so that means extra researching, what sounds awesome!!
+-->
 
 
-I am really excited for both of them, and can not wait to see how the end up looking!
+<!-- I am really excited for both of them, and can not wait to see how the end up looking!  -->
 
 
-As you could notice, I am really excited about working in the industry, with more people.
 
   >  We can go further if we work together.
 

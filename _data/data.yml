@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Enrique Alemany Martínez
-    tagline: Graphics Programmer / Gameplay Programmer
+    tagline: Trainee Graphics Programmer / Creative Assembly
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -65,14 +65,28 @@ career-profile:
 
         Always aiming to improve, learning from the situation, and refining my skills day by day.  
 
-        I am looking forward to join a team where I could share my passion about games, and continue learning. In my spare time I really love working on personal projects or make small games.  
+        In my spare time I really love working on personal projects or make small games.  
 
-        Currently researching about GPGPU programming, and developing a raytracing stage for   my custom 3d Game Engine.
+        Currently working on a Graphics programming trainee on Creative Assembly, and researching about GPGPU programming.
 
 
 footer: >
     
 experiences:
+     - role: Graphics Programmer Trainee
+      time: 2019 - xxxx
+      company: Creative Assembly
+      details: |
+        Working as a trainee, and learning about graphics programming.  
+            
+
+    - role: Programmer
+      time: 2018 - xxxx
+      company: Personal Project
+      details: |
+        Currently learning about different graphics pipelines and proper structures development, doing my new 3D Game Engine, called OutterSpace, and being my first open source project.            
+
+
     - role: Gameplay Programmer at Rocket Banana
       time: 2017 - 2018
       company: Esat end year project
@@ -96,14 +110,6 @@ experiences:
       projectname: Alesal 3D Game Engine is here
 
 
-    - role: Programmer
-      time: 2018 - xxxx
-      company: Personal Project
-      details: |
-        Currently learning about different graphics pipelines and proper structures development, doing my new 3D Game Engine, called OutterSpace, and being my first open source project.            
-
-
-
 education:
     - degree: BTEc Level 5 HND in Computing And Systems Development 
       university: ESAT
@@ -115,10 +121,9 @@ education:
     - degree: BSc(honours) Computer Science for Games
       university: Sheffield Hallam University
       time: 2018 - Expected 2019
-      grade: Aiming To first
+      grade: Top mark of the year
       details: |
-        Currently studying at Sheffield Hallam University, and researching 
-        about GPGPU programming
+        Graduated
           
 
 references:
