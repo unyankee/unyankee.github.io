@@ -34,20 +34,14 @@ Researching for different real-time rendering pipelines, different optimizations
 
 ## Currently doing
 
-Well, currently doing a lot of things, but, the most important are two of them:
-
-> My first Open Source project, hosted on GitHub, a WIP 3D Game Engine called OutterSpace.
-
- I will use it to test all the things I could on my free time, so some times it might be like a chaos :)
-
-<!-- > A new game aiming for the PS4, for a subject, that I still can not say anything about :)
-
-On a team, where we can show what we can do, and having the possibility of working on a devKit, so that means extra researching, what sounds awesome!!
--->
+Currently working as Associate Graphics Programmer on Creative Assembly
 
 
-<!-- I am really excited for both of them, and can not wait to see how the end up looking!  -->
+> My first Open Source project, hosted on GitHub, a WIP 3D Game Engine called OutterSpace, that currently is not available, but I plan to make it public as soon as I get something I can feel proud of : )
+It will be my toy game engine to test everything I am interested on
 
+
+<!-- I am really excited about it, and can not wait to see how it end up looking!  -->
 
 
   >  We can go further if we work together.
