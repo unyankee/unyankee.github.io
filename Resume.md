@@ -25,7 +25,7 @@ And working on a team, with different point of views, is the best way to learn f
 [Sheffield Hallam University](https://www.shu.ac.uk/)    
 Sheffield, UK.  
 BSc(honours) Computer Science for Games  
-Graduated: Expected 2019  
+Graduated: 2019
 
 [ESAT](http://www.esat.es/) (Escuela Superior de Arte y Tecnología)  
 Valencia, Spain  
