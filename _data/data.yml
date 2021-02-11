@@ -59,7 +59,7 @@ sidebar:
 career-profile:
     title: Personal Details
     summary: |
-        Passionate young programmer with experience using C++, Game Engines, such as Unity or Unreal Engine 4 or. Also experienced in 3D real-time rendering techniques.          
+        Passionate young programmer with experience using C++, Game Engines, such as Unity or Unreal Engine 4. Also experienced in 3D real-time rendering techniques.          
 
         Great problem-solving and team-working skills.  
 
@@ -67,7 +67,7 @@ career-profile:
 
         In my spare time I really love working on personal projects or make small games.  
 
-        Currently working on a Graphics programming trainee on Creative Assembly, and researching about GPGPU programming.
+        Currently working as a Graphics programmer on Creative Assembly.
 
 
 footer: >
@@ -92,7 +92,7 @@ experiences:
       time: 2018 - xxxx
       company: Personal Project
       details: |
-        Currently learning about different graphics pipelines and proper structures development, doing my new 3D Game Engine, called OutterSpace, and being my first open source project.            
+        Currently learning about different graphics pipelines and proper structures development, doing my new 3D Game Engine, called OutterSpace, and being my first open source project. Will be updated soon and public again.           
 
 
     - role: Gameplay Programmer at Rocket Banana
