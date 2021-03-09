@@ -109,8 +109,9 @@ experiences:
       time: 2017 - 2018
       company: Esat end year Game Engine
       details: |
-        With the help of a partner, We developed a 3D Game Engine, using Open GL, capable of PBR rendering, deferred rendering, and
-        lots of postprocesses, like SSAO, SSR, Bloom... To learn how a Game Engine performs.          
+        Being part of a team of 2, we learned OpenGl at the same time we developed a 3D Game Engine, capable of PBR rendering, deferred rendering, and
+        lots of postprocesses, like SSAO, SSR, Bloom etc...   
+        In order to understand the rendering pipeline.
       possibleLink: https://unyankee.github.io/2018/06/15/Alesal.html
       projectname: Alesal 3D Game Engine is here
 
