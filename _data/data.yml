@@ -119,9 +119,7 @@ experiences:
         Being part of a team of 2, we learned OpenGl at the same time we developed a 3D Game Engine, capable of PBR rendering, deferred rendering, and
         lots of postprocesses, like SSAO, SSR, Bloom etc...   
         In order to understand the rendering pipeline.
-      possibleLink: https://unyankee.github.io/2018/06/15/Alesal.html
-      projectname: Alesal 3D Game Engine is here
-
+      
 
 education:
     - degree: BTEc Level 5 HND in Computing And Systems Development 
