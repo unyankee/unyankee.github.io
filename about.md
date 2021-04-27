@@ -26,7 +26,7 @@ Easy acces, currently hosted on Github pages:
 
 
 
-I really love graphics programming, what can be done, is fascinating. I started in my last year, a 3D Game Engine, called Alesal, you can find here. It was my first attempt with a partner, trying raw OpenGL, and since then, my passion for API’s and different rendering techniques have been constantly evolving.
+I really love graphics programming, what can be done, is fascinating. I started in my last year, a 3D Game Engine, called Alesal. It was my first attempt with a partner, trying  OpenGL, and since then, my passion for API’s and different rendering techniques have been constantly evolving.
 
 
 Researching for different real-time rendering pipelines, different optimizations, well, there is a whole bunch of things to do :)
