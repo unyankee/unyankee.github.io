@@ -42,7 +42,10 @@ I am skipping the Renderpass object, which VkPipeline needs to also know about, 
 
 My biggest problem was when learning how everything is actually linked together, I have found many pictures and posts about how everything is linked, and the top 2 that helped me out were these
 
-![VulkanHierarchy1](/assets/Vulkan/hierarchy1.png)  
+![VulkanHierarchy1](/assets/Vulkan/hierarchy1.png)    
+
+
+
 
 ![VulkanHierarchy2](/assets/Vulkan/hierarchy2.png)
 
