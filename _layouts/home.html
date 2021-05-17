@@ -15,43 +15,38 @@ layout: default
     
       {%- for post in site.posts -%}
 	
+	<a href="{{ post.url | relative_url }}">
 	  <div class = "Container">	  
+	  	<div class = "ContainerImage">	    
+	  		<a href="{{ post.url | relative_url }}">
+				<img src ={{ post.image}}> 
+	  		</a>
+	  	</div>
 	  
-	  
-	  <div class = "ContainerImage">	    
-	  <a href="{{ post.url | relative_url }}">
-		<img src ={{ post.image}}> 
-	  </a>
-	  </div>
-	  
-	  <div class = "NoImageDiv">	    
-	  
-	  <div class = "ContainerTime">	    
-		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}	  
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-	  </div>	  
-	  
-	       	 
-        <div class = "ContainerTitle">	    
-		<h1>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>		 		  
+	  	<div class = "NoImageDiv">	    
+	  		<div class = "ContainerTime">	    
+				{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}	  
+        			<span class="post-meta">{{ post.date | date: date_format }}</span>
+	  		</div>	  
+        	<div class = "ContainerTitle">	    
+			<h1>
+          			<a class="post-link" href="{{ post.url | relative_url }}">
+            				{{ post.title | escape }}
+          			</a>		 		  
+			</h1>
 		</div>	    
 		  
-        </h1>
-		
 		<div class = "ContainerDescription">	    		
-            {{ post.description}}		             		  		 
+            		{{ post.description}}		             		  		 
 		</div>	    
 				
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        	{%- if site.show_excerpts -%}
+          		{{ post.excerpt }}
+        	{%- endif -%}
         	  
 	  </div>      
-	  
-	  </div>	
+	</a>  
+	</div>	
 	  
 	  <!--<hr/ class = "lineClass">-->
       {%- endfor -%}
