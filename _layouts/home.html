@@ -14,7 +14,6 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
     
       {%- for post in site.posts -%}
-	  <a href="{{ post.url | relative_url }}">
 	
 	  <div class = "Container">	  
 	  
@@ -53,7 +52,7 @@ layout: default
 	  </div>      
 	  
 	  </div>	
-	</a>
+	
 	  <!--<hr/ class = "lineClass">-->
       {%- endfor -%}
     
