@@ -17,7 +17,8 @@ layout: default
 	
 	  <div class = "Container">	  
 	  
-	  	  
+	  <a href="{{ post.url | relative_url }}">
+	  
 	  <div class = "ContainerImage">	    
 	  <a href="{{ post.url | relative_url }}">
 		<img src ={{ post.image}}> 
@@ -52,7 +53,7 @@ layout: default
 	  </div>      
 	  
 	  </div>	
-	
+	</a>	  
 	  <!--<hr/ class = "lineClass">-->
       {%- endfor -%}
     
