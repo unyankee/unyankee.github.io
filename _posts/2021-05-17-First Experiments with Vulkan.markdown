@@ -10,7 +10,7 @@ image: /assets/Vulkan/Vulkan1.png
 
 # Introduction
 
-In short, recently I have been experimenting with Vulkan, and my plan is to actually create some small posts with the things that I am discovering about the API itself, adding what I like or do not like about it. The issues that I found and how I handled them. (which of course might be a completely wrong approach).
+In short, recently I have been experimenting with Vulkan, and my plan is to actually create some small posts with the things that I am discovering about the API itself, adding what I like or do not like about it. The issues that I found and how I handled them. (which of course might be a completely wrong approach), so this series of posts might be just me complaining about stuff that I might not be able to get up and running, or to share what I am learning, and, in the future, being able to check the progress.
 
 
 Bear in mind, that I am not an expert or anything like that in Vulkan, (and that my explanations are not going to be the best out there), and this is the first time that I am actually learning a low-level API, so probably most of the stuff that I am about to write, might be the result of something that I just misunderstood. Even though, I want to have this post, for the record, if it can help anyone else, that is great, if someone can point out what I learned incorrectly that is great too!
