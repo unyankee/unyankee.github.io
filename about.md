@@ -6,10 +6,11 @@ permalink: /about/
 
 ## Who am I?
 
- I am a young programmer, who always wanted to know how everything was made. I obtained my HND in Computing & Systems Development, at ESAT, and then I got the chance to study abroad on Sheffield, where I got the top mark in the year!!
+I am a passionate young programmer with experience using Game Engines, such as Unity or Unreal Engine 4. Also experienced in 3D real-time rendering techniques. And a graphics programming lover.
 
- Currently I am working as associate graphics programmer on Creative Assembly.
+Someone who is always aiming to improve, learning from the situation, and refining my skills day by day.
 
+A fun-loving programmer, that enjoys what he does, but if is on a team, always better. Because to go further, we need to go together. And working on a team, with different point of views, is the best way to learn from others.
 
 ## What have I done?
 
@@ -34,12 +35,9 @@ Researching for different real-time rendering pipelines, different optimizations
 
 ## Currently doing
 
-Currently working as Associate Graphics Programmer on Creative Assembly
+Currently working as a Graphics Programmer on Creative Assembly
 
-
-> My first Open Source project, hosted on GitHub, a WIP 3D Game Engine called OutterSpace, that currently is not available, but I plan to make it public as soon as I get something I can feel proud of : )
-It will be my toy game engine to test everything I am interested on
-
+In my spare time I am developing my toy engine, while learning vulkan.
 
 <!-- I am really excited about it, and can not wait to see how it end up looking!  -->
 
