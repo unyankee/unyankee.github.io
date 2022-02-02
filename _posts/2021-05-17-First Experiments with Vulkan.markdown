@@ -10,8 +10,8 @@ image: /assets/Vulkan/Vulkan1.png
 
 ---
 
-Update:  
-I have been fiddling a lot more, and after some more investigation I made my mind up of a lot of things of this post, but I will still keep it, since even though I stil lthere are a lot of things wrong, I will not remove it, so I can still learn from it.  
+Update:
+I have been fiddling a lot more, and after some more investigation I made my mind up of a lot of things in this post, but I will still keep it since even though I still there are a lot of things wrong, I will not remove it, so I can still learn from it.
 
 ---
 
