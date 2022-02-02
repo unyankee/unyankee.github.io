@@ -8,6 +8,13 @@ image: /assets/Vulkan/Vulkan1.png
 ---
 
 
+---
+
+Update:  
+I have been fiddling a lot more, and after some more investigation I made my mind up of a lot of things of this post, but I will still keep it, since even though I stil lthere are a lot of things wrong, I will not remove it, so I can still learn from it.  
+
+---
+
 # Introduction
 
 In short, recently I have been experimenting with Vulkan, and my plan is to actually create some small posts with the things that I am discovering about the API itself, adding what I like or do not like about it. The issues that I found and how I handled them. (which of course might be a completely wrong approach), so this series of posts might be just me complaining about stuff that I might not be able to get up and running, or to share what I am learning, and, in the future, being able to check the progress.
