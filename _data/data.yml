@@ -74,7 +74,7 @@ experiences:
     - role: Graphics & Tools Engineer
       time: 2022 - current
       company: Mountaintop Studios
-      details: |
+      details: | ...
         
               
    
@@ -232,7 +232,7 @@ skills:
 
     Platforms:
       - name : Windows
-      - name : Linux
+     
       
 
         
