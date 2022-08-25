@@ -1,14 +1,14 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
+      
 sidebar:
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: false # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Enrique Alemany Martínez
-    tagline: Graphics & Tools Engineer / Mountaintop Studios
+    tagline: Graphics Programmer / Creative Assembly
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -59,33 +59,19 @@ career-profile:
     title: Personal Details
     summary: |
         Young programmer with experience using C++. 
-
         Great problem-solving and team-working skills.  
-
         In my spare time I like to research about different rendering techinques, working on small personal projects.
-
         Currently working as a Graphics programmer on Creative Assembly.
-
-
 footer: >
     
 experiences:
     
-    - role: Graphics & Tools Engineer
-      time: 2022 - current
-      company: Mountaintop Studios
-      details: | 
-        Working as graphics/tools programmer.
-        
-              
-   
-   - role: Graphics Programmer
-      time: 2021 - 2022
+    - role: Graphics Programmer
+      time: 2021 - current
       company: Creative Assembly
       details: |
         Environment: C++ Dx11/HLSL.  
         Working within a VFX team to develop new features, adding new debug capabilities and improving the engine and its usability.  
-        Mainly gpgpu programming.
                 
         
     - role: Associate Graphics Programmer
@@ -105,7 +91,6 @@ experiences:
         Learning how to work with people from other roles, such as communicating with artists and Tools in order to achieve a common goal and improve the quality of life of the client side.  
         Working mainly in the VFX side of the engine within a VFX team.  
             
-
     - role: Gameplay Programmer at Rocket Banana
       time: 2017 - 2018
       company: Esat end year project
@@ -127,7 +112,6 @@ experiences:
         lots of postprocesses, like SSAO, SSR, Bloom etc...   
         In order to understand the rendering pipeline.
       
-
 education:
     - degree: BTEc Level 5 HND in Computing And Systems Development 
       university: ESAT
@@ -143,7 +127,6 @@ education:
       details: |
         Graduated
           
-
 references:
   - name: Gustavo Aranda
     Role: Programme Leader at ESAT
@@ -233,8 +216,5 @@ skills:
 
     Platforms:
       - name : Windows
-     
-      
-
-        
+      - name : Linux
 
