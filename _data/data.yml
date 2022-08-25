@@ -68,13 +68,11 @@ footer: >
 experiences:
     
     - role: Graphics & Tools Engineer
-        time: 2022 - current
-        company: Mountaintop Studios
-        details: | 
-            Working as graphics/tools programmer.
-        
-              
-   
+       time: 2022 - current
+       company: Mountaintop Studios
+       details: | 
+         Working as graphics/tools programmer.
+                      
    - role: Graphics Programmer
       time: 2021 - 2022
       company: Creative Assembly
