@@ -68,7 +68,13 @@ experiences:
       time: 2022-Current
       company: Mountaintop Studios  
       details: | 
-         Working as graphics/tools programmer.                  
+         Working as graphics/tools programmer.
+         Compute shader optimizations. 
+         Helping artists to optimize shaders.
+         Creating tools in-engine to help artists to develop new features.
+         Optimizing the engine.         
+        
+         
     - role: Graphics Programmer
       time: 2021 - 2022
       company: Creative Assembly
