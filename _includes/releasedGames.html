@@ -1,5 +1,5 @@
-{% assign Games = site.data.data.sidebar.Games %}
-{% if Games %}
+{% assign Games = site.data.data.sidebar.games %}
+{% if games %}
 
 <div class="languages-container container-block">
 
@@ -8,7 +8,7 @@
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {%for game in Games %}
+    {%for game in games %}
     <li>
       {{ game.name }}
     </li>
