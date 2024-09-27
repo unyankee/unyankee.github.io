@@ -39,7 +39,7 @@ sidebar:
         - name: Gears of War
         - name: Elite Dangerous
         - name: Terraria
-        - name: The witcher 3
+        - name: The Witcher 3
         - name: Borderlands
         - name: Magicka
         - name: Forza Horizon        
@@ -59,8 +59,8 @@ career-profile:
     title: Personal Details
     summary: |
         Young programmer with experience using C++. 
-        Great problem-solving and team-working skills.  
-        In my spare time I like to research about different rendering techinques, working on small personal projects.
+        Great problem-solving and teamwork skills.  
+        In my spare time, I like to research different rendering techniques, working on small personal projects.
 footer: >
     
 experiences:
@@ -97,13 +97,13 @@ experiences:
       company: Creative Assembly
       details: |
         Environment: C++ and Dx11/HLSL.  
-        Learning to work in a professional environment. and learning how a real life game development process affects the development of an engine.  
+        Learning to work in a professional environment. and learning how a real-life game development process affects the development of an engine.  
         Learning how to work with people from other roles, such as communicating with artists and Tools in order to achieve a common goal and improve the quality of life of the client side.  
         Working mainly in the VFX side of the engine within a VFX team.  
             
     - role: Gameplay Programmer at Rocket Banana
       time: 2017 - 2018
-      company: Esat end year project
+      company: Esat end-year project
       details: |
         A team we had when studying at Esat, developing a game and learning Unreal, and released on Steam.  
         My contributions are mainly related to gameplay.
