@@ -1,0 +1,19 @@
+{% assign games = site.data.data.sidebar.games %}
+{% if games %}
+
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    Released Games
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for game in games %}
+    <li>
+      {{ game.name }}
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
