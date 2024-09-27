@@ -69,10 +69,10 @@ experiences:
       company: Mountaintop Studios  
       details: | 
          Working as graphics/tools programmer.  
-         Compute shader optimizations.   
+         Compute shader optimizations.  
          Helping artists to optimize shaders.  
          Creating tools in-engine to help artists to develop new features.  
-         Optimizing the engine.           
+         Optimizing the engine.  
         
          
     - role: Graphics Programmer
