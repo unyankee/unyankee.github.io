@@ -62,7 +62,10 @@ sidebar:
 career-profile:
     title: Personal Details
     summary: |
-        Passionate Graphics Programmer with hands-on experience in real-time rendering and shader development. I thrive in collaborative environments, leveraging my problem-solving abilities to tackle complex visual challenges. In my free time, I dive into cutting-edge rendering techniques, constantly experimenting and refining my skills through personal projects. I'm eager to contribute to innovative game development and push the boundaries of visual storytelling.
+        Passionate Graphics Programmer with hands-on experience in real-time rendering and shader development.  
+        I thrive in collaborative environments, leveraging my problem-solving abilities to tackle complex visual challenges.  
+        In my free time, I dive into cutting-edge rendering techniques, constantly experimenting and refining my skills through personal projects. 
+        I'm eager to contribute to innovative game development and push the boundaries of visual storytelling.
 
 footer: >
     
@@ -71,20 +74,19 @@ experiences:
       time: 2022-Current
       company: Mountaintop Studios  
       details: | 
-         Working as graphics/tools programmer.  
-         Compute shader optimizations.  
-         Helping artists to optimize shaders.  
-         Creating tools in-engine to help artists to develop new features.  
-         Optimizing the engine.  
+         Focus on compute shader optimization and engine performance. 
+         I collaborate closely with artists to streamline shader workflows and enhance performance.   
+         I also develop in-engine tools that empower artists to implement new features efficiently.  
+         Additionally, I work on optimizing the game engine, ensuring smooth and high-performance experiences for end users. 
         
          
     - role: Graphics Programmer
       time: 2021 - 2022
       company: Creative Assembly
       details: |
-        Environment: C++ Dx11/HLSL.  
-        Working within a VFX team to develop new features, adding new debug capabilities and improving the engine and its usability.  
-        Mainly gpgpu programming.
+        Primarily focused on GPGPU programming.  
+        Collaborating with the VFX team to develop and integrate new features, enhance engine usability, and expand debugging capabilities.  
+        My work emphasizes optimizing performance while improving the overall development experience for technical and creative teams alike.
                 
         
     - role: Associate Graphics Programmer
@@ -92,7 +94,8 @@ experiences:
       company: Creative Assembly
       details: |
         Environment: C++ Dx11/HLSL.  
-        Mainly, learning new techniques about modern VFX realtime rendering, and working with VFX team to improve the engine.  
+        Primarily focused on learning and implementing modern real-time VFX rendering techniques, while collaborating with the VFX team to enhance engine performance and capabilities.  
+        I actively explore cutting-edge rendering methods to push the boundaries of visual effects in real-time environments.
         
     
     - role: Trainee Graphics Programmer
@@ -100,9 +103,9 @@ experiences:
       company: Creative Assembly
       details: |
         Environment: C++ and Dx11/HLSL.  
-        Learning to work in a professional environment. and learning how a real-life game development process affects the development of an engine.  
-        Learning how to work with people from other roles, such as communicating with artists and Tools in order to achieve a common goal and improve the quality of life of the client side.  
-        Working mainly in the VFX side of the engine within a VFX team.  
+        Gaining hands-on experience in a professional game development environment, with a focus on how real-world development processes impact engine design.  
+        I’m learning to collaborate effectively across disciplines, including communication with artists and tools teams, to align on shared goals and enhance client-side experiences. 
+        My primary role involves working within the VFX team to improve the engine’s visual effects capabilities.
             
     - role: Gameplay Programmer at Rocket Banana
       time: 2017 - 2018
