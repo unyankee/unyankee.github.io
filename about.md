@@ -6,41 +6,20 @@ permalink: /about/
 
 ## Who am I?
 
-I am a passionate young programmer with experience using Game Engines, such as Unity or Unreal Engine 4. Also experienced in 3D real-time rendering techniques. And a graphics programming lover.
+I am a passionate and driven Graphics Programmer with hands-on experience in real-time rendering, shader development, and game engines such as Unity and Unreal Engine 4. My love for graphics programming fuels my curiosity, and I’m constantly experimenting with cutting-edge rendering techniques through personal projects. I am always striving to improve, learning from every challenge and refining my skills along the way.  
 
-Someone who is always aiming to improve, learning from the situation, and refining my skills day by day.
+In addition to my technical expertise, I thrive in collaborative environments. I believe teamwork, with its diverse perspectives, is key to pushing creative boundaries and achieving remarkable results. I enjoy working alongside others, as it allows for mutual learning and enables us to overcome complex visual challenges together.  
 
-A fun-loving programmer, that enjoys what he does, but if is on a team, always better. Because to go further, we need to go together. And working on a team, with different point of views, is the best way to learn from others.
+I am excited by the opportunity to contribute to innovative game development and help push the boundaries of visual storytelling. I would love to bring my skills and enthusiasm to your team and work towards creating visually stunning experiences.  
 
 ## What have I done?
 
-Well, I started recently, so I have not done too much, but what I have done, I am proud of it. Currently, my work is available on my [blog](http://unyankee.github.io/).
 
-Easy acces, currently hosted on Github pages: 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+I love graphics programming, what can be done, is fascinating. I started in my last year, a 3D Game Engine, called Alesal. It was my first attempt with a partner, trying  OpenGL, and since then, my passion for API’s and different rendering techniques have been constantly evolving.
 
-
-
-I really love graphics programming, what can be done, is fascinating. I started in my last year, a 3D Game Engine, called Alesal. It was my first attempt with a partner, trying  OpenGL, and since then, my passion for API’s and different rendering techniques have been constantly evolving.
-
-
-Researching for different real-time rendering pipelines, different optimizations, well, there is a whole bunch of things to do :)
-
-
-## Currently doing
-
-Currently working as a Graphics Programmer on Creative Assembly
-
-In my spare time I am developing my toy engine, while learning vulkan.
+Researching for different real-time rendering pipelines, and different optimizations, well, there are a whole bunch of things to do :)
 
 <!-- I am really excited about it, and can not wait to see how it end up looking!  -->
-
 
   >  We can go further if we work together.
 
