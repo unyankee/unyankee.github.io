@@ -6,7 +6,9 @@ permalink: /about/
 
 ## Who am I?
 
-I am a passionate and driven Graphics Programmer with hands-on experience in real-time rendering, shader development, and game engines such as Unity and Unreal Engine 4. My love for graphics programming fuels my curiosity, and I’m constantly experimenting with cutting-edge rendering techniques through personal projects. I am always striving to improve, learning from every challenge and refining my skills along the way.  
+I am a passionate and self-driven Senior Graphics Programmer with hands-on experience in real-time rendering, shader development, and game engines. My love for graphics programming fuels my curiosity, and I’m constantly experimenting with cutting-edge rendering techniques through personal projects. I am always striving to improve, learning from every challenge and refining my skills along the way.  
+
+I also double as a GFX/Tools programmer, for those tools that might benefit from the GPU
 
 In addition to my technical expertise, I thrive in collaborative environments. I believe teamwork, with its diverse perspectives, is key to pushing creative boundaries and achieving remarkable results. I enjoy working alongside others, as it allows for mutual learning and enables us to overcome complex visual challenges together.  
 
