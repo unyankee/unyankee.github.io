@@ -70,8 +70,21 @@ career-profile:
 footer: >
     
 experiences:
+  
+    - role: Senior Graphics & Tools Engineer  
+      time: 2025-Current
+      company: Mountaintop Studios  
+      details: | 
+        Compute shader optimization and engine performance.
+        Working on Console optimizations and minspec PC compatibilities 
+        I collaborate closely with artists to streamline shader workflows and enhance performance.
+        I also develop in-engine tools that empower artists to implement new features efficiently.
+        Additionally, I work on optimizing the game engine, ensuring smooth and high-performance experiences for end users.
+
+    
+    
     - role: Graphics & Tools Engineer  
-      time: 2022-Current
+      time: 2022-2025
       company: Mountaintop Studios  
       details: | 
          Focus on compute shader optimization and engine performance.  
