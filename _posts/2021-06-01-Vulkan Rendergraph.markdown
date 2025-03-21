@@ -2,11 +2,11 @@
 layout: post
 title:  "Vulkan Rendergraph"
 description:  "A naive implementation of a rendergraph using Vulkan"
-date:   2021-06-01
+date:   2025-21-03
 categories: 
 image: /assets/Vulkan/rendergraph.png
 ---
 
 # Introduction
 
-This is a WIP post, my main idea is to explore how to do my first rendergraph implementation, I will be expanding this as I am investigating about it, and I have something worth to share.
+Currently, I am busy with other experiments, but the plan is to continue working on this once I am done with my current project (taking profit of my free time to develop a tiny game in ue5 before going back to raw Vulkan)
