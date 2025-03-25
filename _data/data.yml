@@ -62,10 +62,10 @@ sidebar:
 career-profile:
     title: Personal Details
     summary: |
-        Passionate Senior Graphics Programmer with hands-on experience in real-time rendering and shader development.  
-        I thrive in collaborative environments, leveraging my problem-solving abilities to tackle complex visual challenges.  
-        In my free time, I dive into cutting-edge rendering techniques, constantly experimenting and refining my skills through personal projects. 
-        I'm eager to contribute to innovative game development and push the boundaries of visual storytelling.
+        I am a passionate and self-driven Senior Graphics Programmer with hands-on experience in real-time rendering, shader development, and game engines. My love for graphics programming fuels my curiosity, and I’m constantly experimenting with cutting-edge rendering techniques through personal projects. I am always striving to improve, learning from every challenge and refining my skills along the way.  
+        I also double as a GFX/Tools programmer, for those tools that might benefit from the GPU
+        In addition to my technical expertise, I thrive in collaborative environments. I believe teamwork, with its diverse perspectives, is key to pushing creative boundaries and achieving remarkable results. I enjoy working alongside others, as it allows for mutual learning and enables us to overcome complex visual challenges together.  
+        I am excited by the opportunity to contribute to innovative game development and help push the boundaries of visual storytelling. I would love to bring my skills and enthusiasm to your team and work towards creating visually stunning experiences.  
 
 footer: >
     
@@ -79,6 +79,8 @@ experiences:
         Working on Console optimizations and minspec PC compatibilities 
         I collaborate closely with artists to streamline shader workflows and enhance performance.
         I also develop in-engine tools that empower artists to implement new features efficiently.
+        Developed a Livelink tool for Blender to communicate with another inking tool, allowing real-time Blender edition to be reflected in the Unreal Engine.
+        Adding automations for the ink tool to discard unused edges and auto-culling ink strokes
         Additionally, I work on optimizing the game engine, ensuring smooth and high-performance experiences for end users.
 
     
@@ -87,18 +89,20 @@ experiences:
       time: 2022-2025
       company: Mountaintop Studios  
       details: | 
-         Focus on compute shader optimization and engine performance.  
-         I collaborate closely with artists to streamline shader workflows and enhance performance.    
-         I also develop in-engine tools that empower artists to implement new features efficiently.  
-         Additionally, I work on optimizing the game engine, ensuring smooth and high-performance experiences for end users. 
+         Focus on compute shader optimization and engine performance.
+        I collaborate closely with artists to streamline shader workflows and enhance performance.
+        I also develop in-engine tools that empower artists to implement new features efficiently.
+        Additionally, I work on optimizing the game engine, ensuring smooth and high-performance experiences for end users.
+        Expanding new features that artists might need or developing them.
         
          
     - role: Graphics Programmer
       time: 2021 - 2022
       company: Creative Assembly
       details: |
-        Primarily focused on GPGPU programming.  
-        Collaborating with the VFX team to develop and integrate new features, enhance engine usability, and expand debugging capabilities.  
+        Primarily focused on GPGPU programming.
+        Collaborating with the VFX team to develop and integrate new features, enhance engine usability, and expand debugging capabilities.
+        Developed a ribbon system from scratch, compute shader driven, that generates ribbons on every frame. That can be customized using the effect editor tool.
         My work emphasizes optimizing performance while improving the overall development experience for technical and creative teams alike.
                 
         
@@ -108,7 +112,7 @@ experiences:
       details: |
         Environment: C++ Dx11/HLSL.  
         Primarily focused on learning and implementing modern real-time VFX rendering techniques, while collaborating with the VFX team to enhance engine performance and capabilities.  
-        I actively explore cutting-edge rendering methods to push the boundaries of visual effects in real-time environments.
+        I actively explore cutting-edge rendering methods to push the boundaries of visual effects in real-time environments.  
         
     
     - role: Trainee Graphics Programmer
@@ -117,8 +121,7 @@ experiences:
       details: |
         Environment: C++ and Dx11/HLSL.  
         Gaining hands-on experience in a professional game development environment, with a focus on how real-world development processes impact engine design.  
-        I’m learning to collaborate effectively across disciplines, including communication with artists and tools teams, to align on shared goals and enhance client-side experiences. 
-        My primary role involves working within the VFX team to improve the engine’s visual effects capabilities.
+        I’m learning to collaborate effectively across disciplines, including communication with artists and tools teams, to align on shared goals and enhance client-side experiences. My primary role involves working within the VFX team to improve the engine’s visual effects capabilities.
             
     - role: Gameplay Programmer at Rocket Banana
       time: 2017 - 2018
@@ -135,7 +138,7 @@ experiences:
 
     - role: Programmer
       time: 2017 - 2018
-      company: Esat end year Game Engine
+      company: Esat end-of-year Game Engine
       details: |
         Being part of a team of 2, we learned OpenGl at the same time we developed a 3D Game Engine, capable of PBR rendering, deferred rendering, and
         lots of postprocesses, like SSAO, SSR, Bloom etc...   
@@ -157,92 +160,11 @@ education:
         Graduated
           
 references:
-  - name: Gustavo Aranda
-    Role: Programme Leader at ESAT
-    email: garanda@esat.es
+  - name: G
+    Role: P
+    email: g
 
-  - name: Juan Diego Alegre
-    Role: Project Manager at ESAT
-    email: jd@esat.es
-
-skills:
-    title: Skills 
-
-    language:
-      
-      - name: C 
-        level: 0%
-
-      - name: C++ 
-        level: 0%
-
-      - name: C#
-        level: 0%
-
-      - name: Swift
-        level: 0%
-
-      - name: HTML 
-        level: 0%
-
-      - name: CSS
-        level: 0%
-
-      - name: Java
-        level: 0%
-
-      - name: JavaScript
-        level: 0%
-
-      - name: GLSL 
-        level: 0%
-
-      - name: HLSL
-        level: 0%
-
-      - name: ASM (ARM)
-        level: 0%
-
-      - name: LUA
-        level: 0%
-      
-    SourceControl:
-
-      - name: GIT
-
-      - name: Perforce
-
-    APIS: 
-
-      - name: OpenGL 3.X/4.X
-
-      - name: DX11
-
-    Engines: 
-
-      - name: Unreal Engine 4
-
-      - name: Unity
-
-    IDES:  
-
-      - name : Visual Studio 
-      - name : XCode
-      - name : Android Studio
-
-    Debug:  
-
-      - name : Visual Studio 
-      - name : RenderDoc
-      - name : Xcode
-      - name : Android Studio
-
-    Other:
-      - name : Scrum
-      - name : Constant Researching
-      - name : Team working
-      - name : Agile Software Development
-
-    Platforms:
-      - name : Windows
-     
+  - name: J
+    Role: P
+    email: j
+ 
