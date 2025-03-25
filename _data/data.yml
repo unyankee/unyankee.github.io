@@ -34,30 +34,6 @@ sidebar:
       - name: Spectre Divide
       - name: Total War Warhammer III
         
-    interests:
-      games: 
-        - name: Halo 
-        - name: CSGO 
-        - name: Warframe
-        - name: Hollow Knight
-        - name: Gears of War
-        - name: Elite Dangerous
-        - name: Terraria
-        - name: The Witcher 3
-        - name: Borderlands
-        - name: Magicka
-        - name: Forza Horizon        
-
-      gameJams: 
-        - name: Ludum Dare
-
-      other: 
-        - name: Music
-
-      sports: 
-        - name: Cycling 
-
-
 
 career-profile:
     title: Personal Details
