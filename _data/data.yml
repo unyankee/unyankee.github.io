@@ -110,7 +110,6 @@ experiences:
       time: 2020 - 2021
       company: Creative Assembly
       details: |
-        Environment: C++ Dx11/HLSL.  
         Primarily focused on learning and implementing modern real-time VFX rendering techniques, while collaborating with the VFX team to enhance engine performance and capabilities.  
         I actively explore cutting-edge rendering methods to push the boundaries of visual effects in real-time environments.  
         
@@ -119,7 +118,6 @@ experiences:
       time: 2019 - 2020
       company: Creative Assembly
       details: |
-        Environment: C++ and Dx11/HLSL.  
         Gaining hands-on experience in a professional game development environment, with a focus on how real-world development processes impact engine design.  
         I’m learning to collaborate effectively across disciplines, including communication with artists and tools teams, to align on shared goals and enhance client-side experiences. My primary role involves working within the VFX team to improve the engine’s visual effects capabilities.
             
@@ -142,7 +140,7 @@ experiences:
       details: |
         Being part of a team of 2, we learned OpenGl at the same time we developed a 3D Game Engine, capable of PBR rendering, deferred rendering, and
         lots of postprocesses, like SSAO, SSR, Bloom etc...   
-        In order to understand the rendering pipeline.
+        To understand the rendering pipeline.
       
 education:
     - degree: BTEc Level 5 HND in Computing And Systems Development 
