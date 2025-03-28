@@ -303,8 +303,8 @@ hr{
   
     
   
-  transition-property: border-radius, border,background-color;    
-  transition-duration: 0.25s;
+  //transition-property: border-radius, border,background-color;    
+  //transition-duration: 0.25s;
   
    
   
@@ -332,8 +332,8 @@ hr{
 		
     border: 1px solid rgba(0,0,0,0);	
 	
-	transition-property: height, width,opacity,transform,border-radius,bottom,left;    
-	transition-duration: 0.5s;    	 
+	//transition-property: height, width,opacity,transform,border-radius,bottom,left;    
+	//transition-duration: 0.5s;    	 
 	
     height: 50%;	
     width: 75%;  	
@@ -351,7 +351,7 @@ hr{
 	border: 1px solid $boxesColorHover;
 	background-color: #f9f9f9;
 	
-	img{
+	/*img{
 	opacity:1.5;
 	border: 5px solid lighten($boxCargImage,20%);
 	transform: rotate(360deg);
@@ -360,7 +360,7 @@ hr{
 	border-radius:50%;
 	left:15px;
 	bottom:10px;
-	}
+	}*/
 	
 }
 
