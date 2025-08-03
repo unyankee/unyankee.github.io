@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 
-
+<!--
 {% if page.type == 'CV' %}
 
 
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-{% include headCV.html %}
 
+<html lang="en"> 
+{% include headCV.html %}
+-->  
 <body>
+
+<!--Download a better pdf version of the CV-->  
+<a id="downloadLink" href="/assets/Resume.pdf" download="Download Resume"></a>
+
+  <script>
+    // Automatically trigger the download
+    window.onload = function() {
+      document.getElementById('downloadLink').click();
+    };
+  </script>
+
+<!--
+
+
   <div class="wrapper">
     {% include sidebarCV.html %}
 
@@ -101,27 +114,19 @@
 {% include publications.html %}
 
 
-<!--
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        {{ content }}
--->
     </div>
   </div>
 
   {% include footerCV.html %}
 
 {% include scriptsCV.html %}
+-->
+
 </body>
 
 </html>
 
-
+<!--
 {% else %}
 
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
@@ -145,8 +150,9 @@
     {%- include footer.html -%}
 
   </body>
-
 </html>
+
+-->
 
 {% endif %}
 
